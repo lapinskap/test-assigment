@@ -9,8 +9,6 @@ import * as serviceWorker from './serviceWorker';
 import './assets/base.scss';
 import Main from './Pages/Main';
 import configureStore from './config/configureStore';
-import { getUserConfirmationPopup } from './Components/UserConfirmationPopup';
-import RbsAppWrapper from './utils/RoleBasedSecurity/RbsAppWrapper';
 
 const store = configureStore();
 const rootElement = document.getElementById('root');
@@ -24,11 +22,9 @@ const renderApp = (Component) => {
       onClickElement={(params) => {}}
     >
       <Provider store={store}>
-        <RbsAppWrapper>
-          <HashRouter getUserConfirmation={getUserConfirmationPopup}>
+          <HashRouter>
             <Component />
           </HashRouter>
-        </RbsAppWrapper>
       </Provider>
     </InspectorWrapper>,
     rootElement,

@@ -10,7 +10,6 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import __ from '../../../../utils/Translations';
 import { getBrowsingHistory, TYPE_EDIT, TYPE_LISTING } from '../../../../utils/browsingHistory';
 
 const getIconByType = (type) => {
@@ -50,7 +49,7 @@ export default function BrowsingHistory({ close }) {
                       </div>
                       <div className="widget-content-left">
                         <div className="font-weight-normal">
-                          {__(title)}
+                          {title}
                         </div>
                       </div>
                     </div>
@@ -58,7 +57,7 @@ export default function BrowsingHistory({ close }) {
                 </ListGroupItem>
               </Link>
             )) : (
-              <strong className="m-3">{__('Brak historii przeglądanych obiektów')}</strong>
+              <strong className="m-3">empty</strong>
             )
 }
         </ListGroup>

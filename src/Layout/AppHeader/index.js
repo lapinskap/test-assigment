@@ -12,7 +12,6 @@ import UserBox from './Components/UserBox';
 import HeaderRightDrawer from './Components/HeaderRightDrawer';
 
 import HeaderDots from './Components/HeaderDots';
-import SearchBox from '../../Components/SearchBox';
 
 const Header = ({ enableMobileMenuSmall }) => (
   <>
@@ -31,7 +30,6 @@ const Header = ({ enableMobileMenuSmall }) => (
       })}
       >
         <div className="app-header-left">
-          <SearchBox />
         </div>
         <div className="app-header-right">
           <HeaderDots />

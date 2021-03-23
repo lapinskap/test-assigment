@@ -2,7 +2,6 @@ import React from 'react';
 import { match as matchPropTypes } from 'react-router-prop-types';
 import { Route } from 'react-router-dom';
 import AppHeader from '../../Layout/AppHeader';
-import AppSidebar from '../../Layout/AppSidebar';
 
 import AppFooter from '../../Layout/AppFooter';
 
@@ -13,7 +12,6 @@ const Gis = ({ match }) => (
   <>
     <AppHeader />
     <div className="app-main">
-      <AppSidebar />
       <div className="app-main__outer">
         <div className="app-main__inner">
 

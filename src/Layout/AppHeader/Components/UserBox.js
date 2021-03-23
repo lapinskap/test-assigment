@@ -9,12 +9,9 @@ import {
 
 import { faAngleDown, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import RbsContext from '../../../utils/RoleBasedSecurity/RbsContext';
 import city3 from '../../../assets/utils/images/dropdown-header/city3.jpg';
-import __ from '../../../utils/Translations';
 
 const UserBox = () => {
-  const { logout, userInfo } = useContext(RbsContext);
   // const userName = `${userInfo.getFirstName()} ${userInfo.getLastName()}`;
   const userName = 'test user';
   // const role = userInfo.getRole();
@@ -62,14 +59,14 @@ const UserBox = () => {
                               </div>
                               <div className="widget-subheading">{email}</div>
                               <div className="widget-subheading">
-                                {__('Rola')}
+                                Role
                                 :
                                 {' '}
                                 {role}
                               </div>
                             </div>
                             <div className="widget-content-right mr-2">
-                              <Button data-t1="logout" className="btn-pill btn-shadow btn-shine" color="focus" onClick={logout}>
+                              <Button data-t1="logout" className="btn-pill btn-shadow btn-shine" color="focus">
                                 Wyloguj
                               </Button>
                             </div>

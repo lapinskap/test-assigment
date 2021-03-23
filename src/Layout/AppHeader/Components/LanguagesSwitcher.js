@@ -3,7 +3,6 @@ import {
   DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown,
 } from 'reactstrap';
 import Flag from 'react-flagkit';
-import { setLanguage, useLanguages, getLanguage } from '../../../utils/Languages/LanguageContext';
 
 const codeFlagMap = {
   pl: 'PL',
@@ -12,15 +11,14 @@ const codeFlagMap = {
 };
 
 export default function LanguagesSwitcher() {
-  const [lang, setLang] = useState(getLanguage());
-  const languages = useLanguages(true);
+  const [lang, setLang] = useState('en');
+  const languages = ['pl', 'en'];
   if (languages.length <= 1) {
     return null;
   }
 
   const changeLanguage = (key) => {
     setLang(key);
-    setLanguage(key);
     window.location.reload();
   };
 
@@ -31,7 +29,7 @@ export default function LanguagesSwitcher() {
         <div className="icon-wrapper icon-wrapper-alt rounded-circle">
           <div className="icon-wrapper-bg bg-focus" />
           <div className="language-icon">
-            <Flag className="mr-3 opacity-8" country={currentLanguage ? codeFlagMap[currentLanguage.code] : 'JE'} size="40" />
+            <Flag className="mr-3 opacity-8" country="JE" size="40" />
           </div>
         </div>
       </DropdownToggle>

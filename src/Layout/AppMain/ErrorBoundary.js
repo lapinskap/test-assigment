@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Alert } from 'reactstrap';
 import { withRouter } from 'react-router-dom';
 import { history as historyPropTypes } from 'react-router-prop-types';
-import __ from '../../utils/Translations';
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -30,7 +29,7 @@ class ErrorBoundary extends React.Component {
       return (
         <div className="p-4">
           <Alert color="danger">
-            {__('Coś poszło nie tak.')}
+            Something is wrong.
             {' '}
             {errorMessage}
           </Alert>
