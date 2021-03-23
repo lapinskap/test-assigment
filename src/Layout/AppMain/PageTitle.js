@@ -4,14 +4,11 @@ import { connect } from 'react-redux';
 import cx from 'classnames';
 
 import Breadcrumbs from './Breadcrumbs';
-import { TYPE_EDIT, useAddToHistory } from '../../utils/browsingHistory';
 
 const PageTitle = ({
   enablePageTitleIcon,
   enablePageTitleSubheading,
   heading,
-  pushToHistory,
-  historyElementType,
   breadcrumbs,
   breadcrumbsHeading,
   icon = 'pe-7s-graph icon-gradient bg-ripe-malin',
@@ -19,7 +16,6 @@ const PageTitle = ({
   useEffect(() => {
     document.title = heading;
   }, [heading]);
-  useAddToHistory(heading, historyElementType, pushToHistory);
 
   return (
     <>
@@ -77,7 +73,7 @@ PageTitle.defaultProps = {
   enablePageTitleIcon: true,
   enablePageTitleSubheading: true,
   icon: '',
-  historyElementType: TYPE_EDIT,
+  historyElementType: 'edit',
   pushToHistory: false,
   breadcrumbsHeading: null,
 };

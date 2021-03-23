@@ -1,24 +1,28 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import { match as matchPropTypes } from 'react-router-prop-types';
 import { useHistory } from 'react-router-dom';
 import {
   Modal, ModalHeader, ModalBody, ModalFooter, Button,
 } from 'reactstrap';
+import DatePicker from 'react-datepicker';
+import { weeklyAppointments, searchRange } from './consts';
 
-const Main = () => {
+const findFreeTimeslots = () => [];
 
-//   useEffect(() => {
-//     fetchSubscribeData(id);
-//   }, [id]);
+export default function Main() {
+  const [startDate, setStartDate] = useState([]);
+  //   useEffect(() => {
+  //     fetchSubscribeData(id);
+  //   }, [id]);
 
-//   useEffect(() => {
-//   }, [subscribeDataToSend]);
+  useEffect(() => {
+    setStartDate('nukk');
+  }, [startDate]);
 
   return (
     <>
-<p>Test</p>
+      <p>Test</p>
+      <DatePicker onChange={(date) => console.log(date)} />
     </>
   );
-};
-
-export default Main;
+}
