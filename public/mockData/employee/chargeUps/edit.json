@@ -1,0 +1,6 @@
+[
+  {"name": "Bank Premiowy", "points": "1,00", "id": "premium"},
+  {"name": "Bank Punktów ZFŚS", "points": "50,00", "id": "zfss"},
+  {"name": "Twój Benefit od MyBenefit", "points": "0,00", "id": "mybenefit"},
+  {"name": "Zgromadzone punkty (naliczane co miesiąc)", "points": "10,00", "id": "custom"}
+]

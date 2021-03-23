@@ -1,0 +1,826 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormElement /> renders correctly as type boolean 1`] = `
+<div
+  className="form-group"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="switch-padding col-sm-auto"
+      data-t1="fullName"
+    >
+      <div
+        className="mr-2 mb-2"
+        style={
+          Object {
+            "MozTransition": "opacity 0.25s",
+            "MozUserSelect": "none",
+            "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+            "WebkitTransition": "opacity 0.25s",
+            "WebkitUserSelect": "none",
+            "borderRadius": 10,
+            "display": "inline-block",
+            "msUserSelect": "none",
+            "opacity": 1,
+            "position": "relative",
+            "textAlign": "left",
+            "touchAction": "none",
+            "transition": "opacity 0.25s",
+            "userSelect": "none",
+          }
+        }
+      >
+        <div
+          className="react-switch-bg"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          style={
+            Object {
+              "MozTransition": "background 0.25s",
+              "WebkitTransition": "background 0.25s",
+              "background": "#888888",
+              "borderRadius": 10,
+              "cursor": "pointer",
+              "height": 20,
+              "margin": 5,
+              "position": "relative",
+              "transition": "background 0.25s",
+              "width": 48,
+            }
+          }
+        />
+        <div
+          className="react-switch-handle"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          onTouchCancel={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "MozTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+              "WebkitTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+              "background": "#ffffff",
+              "border": 0,
+              "borderRadius": "50%",
+              "boxShadow": "0px 1px 5px rgba(0, 0, 0, 0.6)",
+              "cursor": "pointer",
+              "display": "inline-block",
+              "height": 30,
+              "outline": 0,
+              "position": "absolute",
+              "top": 0,
+              "transform": "translateX(0px)",
+              "transition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+              "width": 30,
+            }
+          }
+        />
+        <input
+          checked={false}
+          disabled={false}
+          id="fullName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyUp={[Function]}
+          role="switch"
+          style={
+            Object {
+              "border": 0,
+              "clip": "rect(0 0 0 0)",
+              "height": 1,
+              "margin": -1,
+              "overflow": "hidden",
+              "padding": 0,
+              "position": "absolute",
+              "width": 1,
+            }
+          }
+          type="checkbox"
+        />
+      </div>
+    </div>
+    <div
+      className="switch-padding label col-sm-auto"
+    >
+      <label
+        className="mt-1"
+      >
+        Test label
+         
+        <span
+          className="text-danger"
+        >
+          *
+        </span>
+         
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type button 1`] = `
+<button
+  aria-label={null}
+  className="btn btn-secondary"
+  data-t1="fullName"
+  onClick={[Function]}
+>
+  Test label
+   
+  <span
+    className="text-danger"
+  >
+    *
+  </span>
+</button>
+`;
+
+exports[`<FormElement /> renders correctly as type date 1`] = `
+<div
+  className="form-group"
+>
+  <div
+    className="form-group"
+  >
+    <label
+      className="mr-sm-2"
+      data-t1="fullNameLabel"
+      htmlFor="fullName"
+    >
+      Test label
+       
+      <span
+        className="text-danger"
+      >
+        *
+      </span>
+    </label>
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <div
+          className="input-group-text"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-calendar-alt fa-w-14 "
+            data-icon="calendar-alt"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="date-picker-wrapper"
+        data-t1="fullName"
+      >
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <input
+              className="form-control"
+              disabled={false}
+              id="fullName"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              readOnly={false}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type dateRange 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="mr-sm-2"
+    data-t1="fullNameLabel"
+    htmlFor="fullName"
+  >
+    Test label
+     
+    <span
+      className="text-danger"
+    >
+      *
+    </span>
+  </label>
+  <div
+    className="form-row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="mr-sm-2"
+          htmlFor="fullName_from"
+        >
+          Od:
+           
+        </label>
+        <div
+          className="input-group"
+        >
+          <div
+            className="input-group-prepend"
+          >
+            <div
+              className="input-group-text"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-calendar-alt fa-w-14 "
+                data-icon="calendar-alt"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            data-t1="fullNameFrom"
+          >
+            <div
+              className="react-datepicker-wrapper"
+            >
+              <div
+                className="react-datepicker__input-container"
+              >
+                <input
+                  className="form-control"
+                  disabled={false}
+                  id="fullName_from"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  readOnly={false}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="mr-sm-2"
+          htmlFor="fullName_to"
+        >
+          Do:
+           
+        </label>
+        <div
+          className="input-group"
+        >
+          <div
+            className="input-group-prepend"
+          >
+            <div
+              className="input-group-text"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-calendar-alt fa-w-14 "
+                data-icon="calendar-alt"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            data-t1="fullNameTo"
+          >
+            <div
+              className="react-datepicker-wrapper"
+            >
+              <div
+                className="react-datepicker__input-container"
+              >
+                <input
+                  className="form-control"
+                  disabled={false}
+                  id="fullName_to"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  readOnly={false}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type datetime 1`] = `
+<div
+  className="form-group"
+>
+  <form
+    className=""
+  >
+    <label
+      className="mr-sm-2"
+      data-t1="fullNameLabel"
+      htmlFor="fullName"
+    >
+      Test label
+       
+      <span
+        className="text-danger"
+      >
+        *
+      </span>
+       
+       
+    </label>
+    <div
+      className="form-row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            aria-invalid={false}
+            className="form-control"
+            dateFormat="dd/MM/yyyy"
+            disabled={false}
+            id="fullName"
+            onChange={[Function]}
+            type="date"
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            aria-invalid={false}
+            className="form-control"
+            disabled={false}
+            onChange={[Function]}
+            type="time"
+          />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type file 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className=""
+    data-t1="fullNameLabel"
+    htmlFor="fullName"
+  >
+    Test label
+     
+    <span
+      className="text-danger"
+    >
+      *
+    </span>
+  </label>
+  <div
+    className="input-group"
+  >
+    <input
+      aria-invalid={false}
+      className="form-control-file"
+      data-t1="fullName"
+      id="fullName"
+      label="Wybierz plik"
+      name="fullName"
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type ipv4 1`] = `
+<div
+  className="form-group"
+>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+      data-t1="fullNameLabel"
+      htmlFor="fullName"
+    >
+      Test label
+       
+      <span
+        className="text-danger"
+      >
+        *
+      </span>
+    </label>
+    <div
+      className="input-group"
+    >
+      <input
+        aria-invalid={false}
+        autoComplete="chrome-off"
+        className="form-control"
+        data-t1="fullName"
+        disabled={false}
+        id="fullName"
+        maxLength="15"
+        minLength="7"
+        name="fullName"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="000.000.000.000"
+        size="15"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type number 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className=""
+    data-t1="fullNameLabel"
+    htmlFor="fullName"
+  >
+    Test label
+     
+    <span
+      className="text-danger"
+    >
+      *
+    </span>
+     
+    
+  </label>
+  <div
+    className="input-group"
+  >
+    <input
+      aria-invalid={false}
+      autoComplete="chrome-off"
+      className="form-control"
+      data-t1="fullName"
+      id="fullName"
+      name="fullName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder={null}
+      type="number"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type numberRange 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="mr-sm-2"
+    data-t1="fullNameLabel"
+    htmlFor="fullName"
+  >
+    Test label
+     
+    <span
+      className="text-danger"
+    >
+      *
+    </span>
+  </label>
+  <div
+    className="form-row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="mr-sm-2"
+          htmlFor="fullName_from"
+        >
+          Od
+           
+        </label>
+        <input
+          className="form-control form-control"
+          data-t1="fullNameFrom"
+          disabled={false}
+          id="fullName_from"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="number"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="mr-sm-2"
+          htmlFor="fullName_to"
+        >
+          Do
+           
+        </label>
+        <input
+          className="form-control form-control"
+          data-t1="fullNameFrom"
+          disabled={false}
+          id="fullName_to"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="number"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type radio 1`] = `
+<div
+  className="input-group-omb form-group"
+>
+  <label
+    className=""
+    data-t1="fullNameLabel"
+    htmlFor="fullName"
+  >
+    Test label
+     
+    <span
+      className="text-danger"
+    >
+      *
+    </span>
+     
+  </label>
+  <div
+    data-t1="fullName"
+  />
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type select 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className=""
+    data-t1="fullNameLabel"
+    htmlFor="fullName"
+  >
+    Test label
+     
+    <span
+      className="text-danger"
+    >
+      *
+    </span>
+  </label>
+  <div
+    className="input-group"
+  >
+    <select
+      className="form-control"
+      data-t1="fullName"
+      id="fullName"
+      name="fullName"
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        ---Nie wybrano ---
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type text 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className=""
+    data-t1="fullNameLabel"
+    htmlFor="fullName"
+  >
+    Test label
+     
+    <span
+      className="text-danger"
+    >
+      *
+    </span>
+     
+    
+  </label>
+  <div
+    className="input-group"
+  >
+    <input
+      aria-invalid={false}
+      autoComplete="chrome-off"
+      className="form-control"
+      data-t1="fullName"
+      id="fullName"
+      name="fullName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder={null}
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type textarea 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className=""
+    data-t1="fullNameLabel"
+    htmlFor="fullName"
+  >
+    Test label
+     
+    <span
+      className="text-danger"
+    >
+      *
+    </span>
+     
+    
+  </label>
+  <div
+    className="input-group"
+  >
+    <textarea
+      aria-invalid={false}
+      autoComplete="chrome-off"
+      className="form-control"
+      data-t1="fullName"
+      id="fullName"
+      name="fullName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder={null}
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type title 1`] = `
+<div
+  className="card-title"
+>
+  Test label
+   
+  <span
+    className="text-danger"
+  >
+    *
+  </span>
+</div>
+`;
+
+exports[`<FormElement /> renders correctly as type wysiwyg 1`] = `
+<div
+  className="form-group"
+>
+  <div
+    className="input-group-omb"
+  >
+    <label
+      className=""
+      data-t1="fullNameLabel"
+      htmlFor="fullName"
+    >
+      Test label
+       
+      <span
+        className="text-danger"
+      >
+        *
+      </span>
+       
+       
+    </label>
+    <div
+      className=""
+      data-t1="fullName"
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;

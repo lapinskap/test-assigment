@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DefaultHashTabBar /> renders correctly with default state 1`] = `
+<div
+  className="my-3 card"
+>
+  <div
+    className="card-body"
+  >
+    <div
+      className="rc-tabs-bar"
+      data-t1="tabs"
+      role="tablist"
+      tabIndex="0"
+    >
+      <div>
+        <span
+          className="rc-tabs-tab-link"
+        >
+          <div
+            aria-disabled="false"
+            aria-selected="true"
+            className="rc-tabs-tab rc-tabs-tab-disabled"
+            role="tab"
+          />
+        </span>
+        <a
+          className="rc-tabs-tab-link"
+          href="#/#undefined"
+          onClick={[Function]}
+        >
+          <div
+            aria-disabled="false"
+            aria-selected="true"
+            className="rc-tabs-tab"
+            role="tab"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

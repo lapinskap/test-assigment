@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdditionalFilters /> renders correctly with props 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="mb-2 col-sm-2"
+  >
+    <label
+      className=""
+    >
+      Test Text Filter
+      :
+    </label>
+     
+    <input
+      className="form-control"
+      data-t1="gridFilter"
+      data-t2="test_text"
+      id="test_text"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="mb-2 col-sm-2"
+  >
+    <label
+      className=""
+    >
+      Test Select Filter
+      :
+    </label>
+     
+    <select
+      className="form-control"
+      data-t1="gridFilter"
+      data-t2="test_select"
+      id="test_select"
+      onChange={[Function]}
+      value="2"
+    >
+      <option
+        value="1"
+      >
+        1
+      </option>
+      <option
+        value="2"
+      >
+        Option 2
+      </option>
+    </select>
+  </div>
+</div>
+`;

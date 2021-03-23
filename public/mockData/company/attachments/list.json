@@ -1,0 +1,14 @@
+[
+  {
+    "type": "regulamin",
+    "language": "Polski",
+    "name": "Regulamin użytkownika",
+    "description": "Tutaj opis dokumentu"
+  },
+  {
+    "type": "formularz",
+    "language": "Español",
+    "name": "Formularz zgłoszeniowy",
+    "description": "Inny opis"
+  }
+]

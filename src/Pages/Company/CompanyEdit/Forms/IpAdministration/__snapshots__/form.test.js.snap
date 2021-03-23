@@ -1,0 +1,1328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IpForm renders correctly 1`] = `
+<IpForm
+  close={[Function]}
+  companyId={5}
+  ipAddressId={23}
+  isOpen={true}
+>
+  <Popup
+    id="ipAdministrationPopup"
+    isOpen={true}
+    size="lg"
+    toggle={[Function]}
+    unmountOnClose={true}
+  >
+    <Modal
+      autoFocus={true}
+      backdrop={true}
+      backdropTransition={
+        Object {
+          "mountOnEnter": true,
+          "timeout": 150,
+        }
+      }
+      centered={false}
+      container="body"
+      fade={true}
+      isOpen={true}
+      keyboard={true}
+      modalTransition={
+        Object {
+          "timeout": 300,
+        }
+      }
+      onClosed={[Function]}
+      onOpened={[Function]}
+      returnFocusAfterClose={true}
+      role="dialog"
+      scrollable={false}
+      size="lg"
+      toggle={[Function]}
+      unmountOnClose={true}
+      zIndex={1050}
+    >
+      <Portal
+        node={
+          <div
+            style="position: relative; z-index: 1050; display: block;"
+            tabindex="-1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="modal fade"
+                role="dialog"
+                style="display: block;"
+                tabindex="-1"
+              >
+                <div
+                  class="modal-dialog modal-lg"
+                  role="document"
+                >
+                  <div
+                    class="modal-content"
+                  >
+                    <div
+                      data-t1="ipAdministrationPopup"
+                    >
+                      <form
+                        class=""
+                        data-t1="ipAdministrationForm"
+                      >
+                        <div
+                          class="modal-header"
+                        >
+                          <h5
+                            class="modal-title"
+                          >
+                            Edycja zakresu IP 23
+                          </h5>
+                          <button
+                            aria-label="Close"
+                            class="close"
+                            type="button"
+                          >
+                            <span
+                              aria-hidden="true"
+                            >
+                              ×
+                            </span>
+                          </button>
+                        </div>
+                        <div
+                          class="modal-body"
+                        >
+                          <div
+                            class="main-card mb-3"
+                          >
+                            <div
+                              class="pt-4"
+                            >
+                              <div
+                                class="row"
+                              >
+                                <div
+                                  class="col"
+                                >
+                                  <div
+                                    class="form-group"
+                                  >
+                                    <div
+                                      class="form-group"
+                                    >
+                                      <label
+                                        class=""
+                                        data-t1="startIpAddressLabel"
+                                        for="startIpAddress"
+                                      >
+                                        Początkowy adres IP
+                                         
+                                        <span
+                                          class="text-danger"
+                                        >
+                                          *
+                                        </span>
+                                      </label>
+                                      <div
+                                        class="input-group"
+                                      >
+                                        <input
+                                          aria-invalid="false"
+                                          autocomplete="chrome-off"
+                                          class="form-control"
+                                          data-t1="startIpAddress"
+                                          id="startIpAddress"
+                                          maxlength="15"
+                                          minlength="7"
+                                          name="startIpAddress"
+                                          placeholder="000.000.000.000"
+                                          size="15"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="col"
+                                >
+                                  <div
+                                    class="form-group"
+                                  >
+                                    <div
+                                      class="form-group"
+                                    >
+                                      <label
+                                        class=""
+                                        data-t1="endIpAddressLabel"
+                                        for="endIpAddress"
+                                      >
+                                        Końcowy adres IP
+                                         
+                                        <span
+                                          class="text-danger"
+                                        >
+                                          *
+                                        </span>
+                                      </label>
+                                      <div
+                                        class="input-group"
+                                      >
+                                        <input
+                                          aria-invalid="false"
+                                          autocomplete="chrome-off"
+                                          class="form-control"
+                                          data-t1="endIpAddress"
+                                          id="endIpAddress"
+                                          maxlength="15"
+                                          minlength="7"
+                                          name="endIpAddress"
+                                          placeholder="000.000.000.000"
+                                          size="15"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="form-group"
+                              >
+                                <label
+                                  class=""
+                                  data-t1="descriptionLabel"
+                                  for="description"
+                                >
+                                  Opis
+                                   
+                                  <span
+                                    class="text-danger"
+                                  >
+                                    *
+                                  </span>
+                                   
+                                  
+                                </label>
+                                <div
+                                  class="input-group"
+                                >
+                                  <input
+                                    aria-invalid="false"
+                                    autocomplete="chrome-off"
+                                    class="form-control"
+                                    data-t1="description"
+                                    id="description"
+                                    name="description"
+                                    type="text"
+                                    value=""
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="modal-footer"
+                        >
+                          <button
+                            class="mr-2 not-allowed btn btn-primary btn-lg disabled"
+                            data-t1="ipAdministrationFormSubmit"
+                            disabled=""
+                            title="Nie masz uprawnień (sso:ipAddressRestriction:write)"
+                            type="submit"
+                          >
+                            Zapisz
+                          </button>
+                        </div>
+                        <button
+                          class="d-none"
+                          type="submit"
+                        >
+                          submit
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="modal-backdrop fade"
+              />
+            </div>
+          </div>
+        }
+      >
+        <Portal
+          containerInfo={
+            <div
+              style="position: relative; z-index: 1050; display: block;"
+              tabindex="-1"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="modal fade"
+                  role="dialog"
+                  style="display: block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-dialog modal-lg"
+                    role="document"
+                  >
+                    <div
+                      class="modal-content"
+                    >
+                      <div
+                        data-t1="ipAdministrationPopup"
+                      >
+                        <form
+                          class=""
+                          data-t1="ipAdministrationForm"
+                        >
+                          <div
+                            class="modal-header"
+                          >
+                            <h5
+                              class="modal-title"
+                            >
+                              Edycja zakresu IP 23
+                            </h5>
+                            <button
+                              aria-label="Close"
+                              class="close"
+                              type="button"
+                            >
+                              <span
+                                aria-hidden="true"
+                              >
+                                ×
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            class="modal-body"
+                          >
+                            <div
+                              class="main-card mb-3"
+                            >
+                              <div
+                                class="pt-4"
+                              >
+                                <div
+                                  class="row"
+                                >
+                                  <div
+                                    class="col"
+                                  >
+                                    <div
+                                      class="form-group"
+                                    >
+                                      <div
+                                        class="form-group"
+                                      >
+                                        <label
+                                          class=""
+                                          data-t1="startIpAddressLabel"
+                                          for="startIpAddress"
+                                        >
+                                          Początkowy adres IP
+                                           
+                                          <span
+                                            class="text-danger"
+                                          >
+                                            *
+                                          </span>
+                                        </label>
+                                        <div
+                                          class="input-group"
+                                        >
+                                          <input
+                                            aria-invalid="false"
+                                            autocomplete="chrome-off"
+                                            class="form-control"
+                                            data-t1="startIpAddress"
+                                            id="startIpAddress"
+                                            maxlength="15"
+                                            minlength="7"
+                                            name="startIpAddress"
+                                            placeholder="000.000.000.000"
+                                            size="15"
+                                            type="text"
+                                            value=""
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="col"
+                                  >
+                                    <div
+                                      class="form-group"
+                                    >
+                                      <div
+                                        class="form-group"
+                                      >
+                                        <label
+                                          class=""
+                                          data-t1="endIpAddressLabel"
+                                          for="endIpAddress"
+                                        >
+                                          Końcowy adres IP
+                                           
+                                          <span
+                                            class="text-danger"
+                                          >
+                                            *
+                                          </span>
+                                        </label>
+                                        <div
+                                          class="input-group"
+                                        >
+                                          <input
+                                            aria-invalid="false"
+                                            autocomplete="chrome-off"
+                                            class="form-control"
+                                            data-t1="endIpAddress"
+                                            id="endIpAddress"
+                                            maxlength="15"
+                                            minlength="7"
+                                            name="endIpAddress"
+                                            placeholder="000.000.000.000"
+                                            size="15"
+                                            type="text"
+                                            value=""
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="form-group"
+                                >
+                                  <label
+                                    class=""
+                                    data-t1="descriptionLabel"
+                                    for="description"
+                                  >
+                                    Opis
+                                     
+                                    <span
+                                      class="text-danger"
+                                    >
+                                      *
+                                    </span>
+                                     
+                                    
+                                  </label>
+                                  <div
+                                    class="input-group"
+                                  >
+                                    <input
+                                      aria-invalid="false"
+                                      autocomplete="chrome-off"
+                                      class="form-control"
+                                      data-t1="description"
+                                      id="description"
+                                      name="description"
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="modal-footer"
+                          >
+                            <button
+                              class="mr-2 not-allowed btn btn-primary btn-lg disabled"
+                              data-t1="ipAdministrationFormSubmit"
+                              disabled=""
+                              title="Nie masz uprawnień (sso:ipAddressRestriction:write)"
+                              type="submit"
+                            >
+                              Zapisz
+                            </button>
+                          </div>
+                          <button
+                            class="d-none"
+                            type="submit"
+                          >
+                            submit
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="modal-backdrop fade"
+                />
+              </div>
+            </div>
+          }
+        >
+          <div
+            className=""
+          >
+            <Fade
+              appear={true}
+              baseClass="fade"
+              baseClassActive="show"
+              className="modal"
+              enter={true}
+              exit={true}
+              in={true}
+              mountOnEnter={false}
+              onClick={[Function]}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              role="dialog"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+              tabIndex="-1"
+              tag="div"
+              timeout={300}
+              unmountOnExit={false}
+            >
+              <Transition
+                appear={true}
+                enter={true}
+                exit={true}
+                in={true}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <div
+                  className="modal fade"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  role="dialog"
+                  style={
+                    Object {
+                      "display": "block",
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div
+                    className="modal-dialog modal-lg"
+                    role="document"
+                  >
+                    <div
+                      className="modal-content"
+                    >
+                      <div
+                        data-t1="ipAdministrationPopup"
+                      >
+                        <FormComponent
+                          config={
+                            Object {
+                              "buttons": Array [
+                                Object {
+                                  "className": "mr-2",
+                                  "color": "primary",
+                                  "id": "ipAdministrationFormSubmit",
+                                  "permission": "sso:ipAddressRestriction:write",
+                                  "size": "lg",
+                                  "text": "Zapisz",
+                                  "type": "submit",
+                                },
+                              ],
+                              "defaultOnChange": [Function],
+                              "formGroups": Array [
+                                Object {
+                                  "formElements": Array [
+                                    Object {
+                                      "formElements": Array [
+                                        Object {
+                                          "id": "startIpAddress",
+                                          "label": "Początkowy adres IP",
+                                          "placeholder": "000.000.000.000",
+                                          "type": "ipv4",
+                                          "validation": Array [
+                                            "required",
+                                            "ipv4",
+                                          ],
+                                        },
+                                        Object {
+                                          "id": "endIpAddress",
+                                          "label": "Końcowy adres IP",
+                                          "placeholder": "000.000.000.000",
+                                          "type": "ipv4",
+                                          "validation": Array [
+                                            "required",
+                                            "ipv4",
+                                          ],
+                                        },
+                                      ],
+                                      "layout": "2columns",
+                                    },
+                                    Object {
+                                      "id": "description",
+                                      "label": "Opis",
+                                      "type": "text",
+                                      "validation": Array [
+                                        "required",
+                                      ],
+                                    },
+                                  ],
+                                },
+                              ],
+                              "isInPopup": true,
+                              "onSubmit": [Function],
+                              "title": "Edycja zakresu IP 23",
+                              "togglePopup": [Function],
+                            }
+                          }
+                          data={Object {}}
+                          id="ipAdministrationForm"
+                        >
+                          <Form
+                            data-t1="ipAdministrationForm"
+                            onSubmit={[Function]}
+                            tag="form"
+                          >
+                            <form
+                              className=""
+                              data-t1="ipAdministrationForm"
+                              onSubmit={[Function]}
+                            >
+                              <ModalHeader
+                                charCode={215}
+                                closeAriaLabel="Close"
+                                tag="h5"
+                                toggle={[Function]}
+                                wrapTag="div"
+                              >
+                                <div
+                                  className="modal-header"
+                                >
+                                  <h5
+                                    className="modal-title"
+                                  >
+                                    Edycja zakresu IP 23
+                                  </h5>
+                                  <button
+                                    aria-label="Close"
+                                    className="close"
+                                    onClick={[Function]}
+                                    type="button"
+                                  >
+                                    <span
+                                      aria-hidden="true"
+                                    >
+                                      ×
+                                    </span>
+                                  </button>
+                                </div>
+                              </ModalHeader>
+                              <ModalBody
+                                tag="div"
+                              >
+                                <div
+                                  className="modal-body"
+                                >
+                                  <FormGroup
+                                    data={Object {}}
+                                    defaultOnChange={[Function]}
+                                    formElements={
+                                      Array [
+                                        Object {
+                                          "formElements": Array [
+                                            Object {
+                                              "id": "startIpAddress",
+                                              "label": "Początkowy adres IP",
+                                              "placeholder": "000.000.000.000",
+                                              "type": "ipv4",
+                                              "validation": Array [
+                                                "required",
+                                                "ipv4",
+                                              ],
+                                            },
+                                            Object {
+                                              "id": "endIpAddress",
+                                              "label": "Końcowy adres IP",
+                                              "placeholder": "000.000.000.000",
+                                              "type": "ipv4",
+                                              "validation": Array [
+                                                "required",
+                                                "ipv4",
+                                              ],
+                                            },
+                                          ],
+                                          "layout": "2columns",
+                                        },
+                                        Object {
+                                          "id": "description",
+                                          "label": "Opis",
+                                          "type": "text",
+                                          "validation": Array [
+                                            "required",
+                                          ],
+                                        },
+                                      ]
+                                    }
+                                    groupsAsColumns={false}
+                                    id={0}
+                                    invalidFields={Object {}}
+                                    key="0"
+                                    noCards={true}
+                                    title=""
+                                    tooltip={null}
+                                    validateField={[Function]}
+                                  >
+                                    <NoCardWrapper
+                                      id={0}
+                                      title=""
+                                      tooltip={null}
+                                    >
+                                      <div
+                                        className="main-card mb-3"
+                                      >
+                                        <div
+                                          className="pt-4"
+                                        >
+                                          <TwoColumns
+                                            key="0"
+                                            lg={null}
+                                            md={null}
+                                            sm={null}
+                                          >
+                                            <Row
+                                              key="0"
+                                              tag="div"
+                                              widths={
+                                                Array [
+                                                  "xs",
+                                                  "sm",
+                                                  "md",
+                                                  "lg",
+                                                  "xl",
+                                                ]
+                                              }
+                                            >
+                                              <div
+                                                className="row"
+                                              >
+                                                <Col
+                                                  lg={null}
+                                                  md={null}
+                                                  sm={null}
+                                                  tag="div"
+                                                  widths={
+                                                    Array [
+                                                      "xs",
+                                                      "sm",
+                                                      "md",
+                                                      "lg",
+                                                      "xl",
+                                                    ]
+                                                  }
+                                                >
+                                                  <div
+                                                    className="col"
+                                                  >
+                                                    <FormElement
+                                                      className=""
+                                                      dataOldSk=""
+                                                      displayCondition={false}
+                                                      errorMessage={null}
+                                                      fetchOptions={null}
+                                                      id="startIpAddress"
+                                                      inputSwitcher={null}
+                                                      isCheckbox={null}
+                                                      key="0"
+                                                      label="Początkowy adres IP"
+                                                      legend={Array []}
+                                                      onChange={[Function]}
+                                                      options={Array []}
+                                                      placeholder="000.000.000.000"
+                                                      prefix=""
+                                                      props={Object {}}
+                                                      showTimeSelect={false}
+                                                      suffix=""
+                                                      tooltip={null}
+                                                      tooltipPosition="label"
+                                                      translatable={null}
+                                                      type="ipv4"
+                                                      validateField={[Function]}
+                                                      validation={
+                                                        Array [
+                                                          "required",
+                                                          "ipv4",
+                                                        ]
+                                                      }
+                                                      value={null}
+                                                      valueFormatter={null}
+                                                    >
+                                                      <FormGroup
+                                                        tag="div"
+                                                      >
+                                                        <div
+                                                          className="form-group"
+                                                        >
+                                                          <IPv4
+                                                            disabled={false}
+                                                            errorMessage={null}
+                                                            id="startIpAddress"
+                                                            inputSwitcher={null}
+                                                            label={
+                                                              <React.Fragment>
+                                                                Początkowy adres IP
+                                                                 
+                                                                <span
+                                                                  className="text-danger"
+                                                                >
+                                                                  *
+                                                                </span>
+                                                              </React.Fragment>
+                                                            }
+                                                            onChange={[Function]}
+                                                            placeholder="000.000.000.000"
+                                                            prefix=""
+                                                            suffix=""
+                                                            tooltip={null}
+                                                            tooltipPosition="label"
+                                                            validateField={[Function]}
+                                                            validation={
+                                                              Array [
+                                                                "required",
+                                                                "ipv4",
+                                                              ]
+                                                            }
+                                                            value={null}
+                                                          >
+                                                            <FormGroup
+                                                              tag="div"
+                                                            >
+                                                              <div
+                                                                className="form-group"
+                                                              >
+                                                                <Label
+                                                                  data-t1="startIpAddressLabel"
+                                                                  for="startIpAddress"
+                                                                  tag="label"
+                                                                  widths={
+                                                                    Array [
+                                                                      "xs",
+                                                                      "sm",
+                                                                      "md",
+                                                                      "lg",
+                                                                      "xl",
+                                                                    ]
+                                                                  }
+                                                                >
+                                                                  <label
+                                                                    className=""
+                                                                    data-t1="startIpAddressLabel"
+                                                                    htmlFor="startIpAddress"
+                                                                  >
+                                                                    Początkowy adres IP
+                                                                     
+                                                                    <span
+                                                                      className="text-danger"
+                                                                    >
+                                                                      *
+                                                                    </span>
+                                                                  </label>
+                                                                </Label>
+                                                                <InputGroup
+                                                                  tag="div"
+                                                                >
+                                                                  <div
+                                                                    className="input-group"
+                                                                  >
+                                                                    <Input
+                                                                      autoComplete="chrome-off"
+                                                                      data-t1="startIpAddress"
+                                                                      disabled={false}
+                                                                      id="startIpAddress"
+                                                                      invalid={false}
+                                                                      maxLength="15"
+                                                                      minLength="7"
+                                                                      name="startIpAddress"
+                                                                      onBlur={[Function]}
+                                                                      onChange={[Function]}
+                                                                      placeholder="000.000.000.000"
+                                                                      size="15"
+                                                                      type="text"
+                                                                      value=""
+                                                                    >
+                                                                      <input
+                                                                        aria-invalid={false}
+                                                                        autoComplete="chrome-off"
+                                                                        className="form-control"
+                                                                        data-t1="startIpAddress"
+                                                                        disabled={false}
+                                                                        id="startIpAddress"
+                                                                        maxLength="15"
+                                                                        minLength="7"
+                                                                        name="startIpAddress"
+                                                                        onBlur={[Function]}
+                                                                        onChange={[Function]}
+                                                                        placeholder="000.000.000.000"
+                                                                        size="15"
+                                                                        type="text"
+                                                                        value=""
+                                                                      />
+                                                                    </Input>
+                                                                    <ValidationMessage
+                                                                      message={null}
+                                                                    />
+                                                                  </div>
+                                                                </InputGroup>
+                                                              </div>
+                                                            </FormGroup>
+                                                          </IPv4>
+                                                        </div>
+                                                      </FormGroup>
+                                                    </FormElement>
+                                                  </div>
+                                                </Col>
+                                                <Col
+                                                  lg={null}
+                                                  md={null}
+                                                  sm={null}
+                                                  tag="div"
+                                                  widths={
+                                                    Array [
+                                                      "xs",
+                                                      "sm",
+                                                      "md",
+                                                      "lg",
+                                                      "xl",
+                                                    ]
+                                                  }
+                                                >
+                                                  <div
+                                                    className="col"
+                                                  >
+                                                    <FormElement
+                                                      className=""
+                                                      dataOldSk=""
+                                                      displayCondition={false}
+                                                      errorMessage={null}
+                                                      fetchOptions={null}
+                                                      id="endIpAddress"
+                                                      inputSwitcher={null}
+                                                      isCheckbox={null}
+                                                      key="1"
+                                                      label="Końcowy adres IP"
+                                                      legend={Array []}
+                                                      onChange={[Function]}
+                                                      options={Array []}
+                                                      placeholder="000.000.000.000"
+                                                      prefix=""
+                                                      props={Object {}}
+                                                      showTimeSelect={false}
+                                                      suffix=""
+                                                      tooltip={null}
+                                                      tooltipPosition="label"
+                                                      translatable={null}
+                                                      type="ipv4"
+                                                      validateField={[Function]}
+                                                      validation={
+                                                        Array [
+                                                          "required",
+                                                          "ipv4",
+                                                        ]
+                                                      }
+                                                      value={null}
+                                                      valueFormatter={null}
+                                                    >
+                                                      <FormGroup
+                                                        tag="div"
+                                                      >
+                                                        <div
+                                                          className="form-group"
+                                                        >
+                                                          <IPv4
+                                                            disabled={false}
+                                                            errorMessage={null}
+                                                            id="endIpAddress"
+                                                            inputSwitcher={null}
+                                                            label={
+                                                              <React.Fragment>
+                                                                Końcowy adres IP
+                                                                 
+                                                                <span
+                                                                  className="text-danger"
+                                                                >
+                                                                  *
+                                                                </span>
+                                                              </React.Fragment>
+                                                            }
+                                                            onChange={[Function]}
+                                                            placeholder="000.000.000.000"
+                                                            prefix=""
+                                                            suffix=""
+                                                            tooltip={null}
+                                                            tooltipPosition="label"
+                                                            validateField={[Function]}
+                                                            validation={
+                                                              Array [
+                                                                "required",
+                                                                "ipv4",
+                                                              ]
+                                                            }
+                                                            value={null}
+                                                          >
+                                                            <FormGroup
+                                                              tag="div"
+                                                            >
+                                                              <div
+                                                                className="form-group"
+                                                              >
+                                                                <Label
+                                                                  data-t1="endIpAddressLabel"
+                                                                  for="endIpAddress"
+                                                                  tag="label"
+                                                                  widths={
+                                                                    Array [
+                                                                      "xs",
+                                                                      "sm",
+                                                                      "md",
+                                                                      "lg",
+                                                                      "xl",
+                                                                    ]
+                                                                  }
+                                                                >
+                                                                  <label
+                                                                    className=""
+                                                                    data-t1="endIpAddressLabel"
+                                                                    htmlFor="endIpAddress"
+                                                                  >
+                                                                    Końcowy adres IP
+                                                                     
+                                                                    <span
+                                                                      className="text-danger"
+                                                                    >
+                                                                      *
+                                                                    </span>
+                                                                  </label>
+                                                                </Label>
+                                                                <InputGroup
+                                                                  tag="div"
+                                                                >
+                                                                  <div
+                                                                    className="input-group"
+                                                                  >
+                                                                    <Input
+                                                                      autoComplete="chrome-off"
+                                                                      data-t1="endIpAddress"
+                                                                      disabled={false}
+                                                                      id="endIpAddress"
+                                                                      invalid={false}
+                                                                      maxLength="15"
+                                                                      minLength="7"
+                                                                      name="endIpAddress"
+                                                                      onBlur={[Function]}
+                                                                      onChange={[Function]}
+                                                                      placeholder="000.000.000.000"
+                                                                      size="15"
+                                                                      type="text"
+                                                                      value=""
+                                                                    >
+                                                                      <input
+                                                                        aria-invalid={false}
+                                                                        autoComplete="chrome-off"
+                                                                        className="form-control"
+                                                                        data-t1="endIpAddress"
+                                                                        disabled={false}
+                                                                        id="endIpAddress"
+                                                                        maxLength="15"
+                                                                        minLength="7"
+                                                                        name="endIpAddress"
+                                                                        onBlur={[Function]}
+                                                                        onChange={[Function]}
+                                                                        placeholder="000.000.000.000"
+                                                                        size="15"
+                                                                        type="text"
+                                                                        value=""
+                                                                      />
+                                                                    </Input>
+                                                                    <ValidationMessage
+                                                                      message={null}
+                                                                    />
+                                                                  </div>
+                                                                </InputGroup>
+                                                              </div>
+                                                            </FormGroup>
+                                                          </IPv4>
+                                                        </div>
+                                                      </FormGroup>
+                                                    </FormElement>
+                                                  </div>
+                                                </Col>
+                                              </div>
+                                            </Row>
+                                          </TwoColumns>
+                                          <FormElement
+                                            className=""
+                                            dataOldSk=""
+                                            displayCondition={false}
+                                            errorMessage={null}
+                                            fetchOptions={null}
+                                            id="description"
+                                            inputSwitcher={null}
+                                            isCheckbox={null}
+                                            key="1"
+                                            label="Opis"
+                                            legend={Array []}
+                                            onChange={[Function]}
+                                            options={Array []}
+                                            placeholder=""
+                                            prefix=""
+                                            props={Object {}}
+                                            showTimeSelect={false}
+                                            suffix=""
+                                            tooltip={null}
+                                            tooltipPosition="label"
+                                            translatable={null}
+                                            type="text"
+                                            validateField={[Function]}
+                                            validation={
+                                              Array [
+                                                "required",
+                                              ]
+                                            }
+                                            value={null}
+                                            valueFormatter={null}
+                                          >
+                                            <FormGroup
+                                              tag="div"
+                                            >
+                                              <div
+                                                className="form-group"
+                                              >
+                                                <Label
+                                                  data-t1="descriptionLabel"
+                                                  for="description"
+                                                  tag="label"
+                                                  widths={
+                                                    Array [
+                                                      "xs",
+                                                      "sm",
+                                                      "md",
+                                                      "lg",
+                                                      "xl",
+                                                    ]
+                                                  }
+                                                >
+                                                  <label
+                                                    className=""
+                                                    data-t1="descriptionLabel"
+                                                    htmlFor="description"
+                                                  >
+                                                    Opis
+                                                     
+                                                    <span
+                                                      className="text-danger"
+                                                    >
+                                                      *
+                                                    </span>
+                                                     
+                                                  </label>
+                                                </Label>
+                                                <InputGroup
+                                                  tag="div"
+                                                >
+                                                  <div
+                                                    className="input-group"
+                                                  >
+                                                    <Input
+                                                      autoComplete="chrome-off"
+                                                      className=""
+                                                      data-t1="description"
+                                                      id="description"
+                                                      invalid={false}
+                                                      name="description"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      placeholder={null}
+                                                      type="text"
+                                                      value=""
+                                                    >
+                                                      <input
+                                                        aria-invalid={false}
+                                                        autoComplete="chrome-off"
+                                                        className="form-control"
+                                                        data-t1="description"
+                                                        id="description"
+                                                        name="description"
+                                                        onBlur={[Function]}
+                                                        onChange={[Function]}
+                                                        placeholder={null}
+                                                        type="text"
+                                                        value=""
+                                                      />
+                                                    </Input>
+                                                    <ValidationMessage
+                                                      message={null}
+                                                    />
+                                                  </div>
+                                                </InputGroup>
+                                              </div>
+                                            </FormGroup>
+                                          </FormElement>
+                                        </div>
+                                      </div>
+                                    </NoCardWrapper>
+                                  </FormGroup>
+                                </div>
+                              </ModalBody>
+                              <ModalFooter
+                                tag="div"
+                              >
+                                <div
+                                  className="modal-footer"
+                                >
+                                  <ButtonsList
+                                    buttons={
+                                      Array [
+                                        Object {
+                                          "className": "mr-2",
+                                          "color": "primary",
+                                          "id": "ipAdministrationFormSubmit",
+                                          "permission": "sso:ipAddressRestriction:write",
+                                          "size": "lg",
+                                          "text": "Zapisz",
+                                          "type": "submit",
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <RbsButton
+                                      className="mr-2"
+                                      color="primary"
+                                      data-t1="ipAdministrationFormSubmit"
+                                      disabled={false}
+                                      href={null}
+                                      key="ipAdministrationFormSubmit"
+                                      onClick={[Function]}
+                                      permission="sso:ipAddressRestriction:write"
+                                      size="lg"
+                                      title="Zapisz"
+                                      type="submit"
+                                    >
+                                      <Button
+                                        className="mr-2 not-allowed"
+                                        color="primary"
+                                        data-t1="ipAdministrationFormSubmit"
+                                        disabled={true}
+                                        href={null}
+                                        onClick={[Function]}
+                                        size="lg"
+                                        tag="button"
+                                        title="Nie masz uprawnień (sso:ipAddressRestriction:write)"
+                                        type="submit"
+                                      >
+                                        <button
+                                          aria-label={null}
+                                          className="mr-2 not-allowed btn btn-primary btn-lg disabled"
+                                          data-t1="ipAdministrationFormSubmit"
+                                          disabled={true}
+                                          href={null}
+                                          onClick={[Function]}
+                                          title="Nie masz uprawnień (sso:ipAddressRestriction:write)"
+                                          type="submit"
+                                        >
+                                          Zapisz
+                                        </button>
+                                      </Button>
+                                    </RbsButton>
+                                  </ButtonsList>
+                                </div>
+                              </ModalFooter>
+                              <button
+                                className="d-none"
+                                type="submit"
+                              >
+                                submit
+                              </button>
+                            </form>
+                          </Form>
+                        </FormComponent>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Transition>
+            </Fade>
+            <Fade
+              appear={true}
+              baseClass="fade"
+              baseClassActive="show"
+              className="modal-backdrop"
+              enter={true}
+              exit={true}
+              in={true}
+              mountOnEnter={true}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              tag="div"
+              timeout={150}
+              unmountOnExit={false}
+            >
+              <Transition
+                appear={true}
+                enter={true}
+                exit={true}
+                in={true}
+                mountOnEnter={true}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={150}
+                unmountOnExit={false}
+              >
+                <div
+                  className="modal-backdrop fade"
+                />
+              </Transition>
+            </Fade>
+          </div>
+        </Portal>
+      </Portal>
+    </Modal>
+  </Popup>
+</IpForm>
+`;

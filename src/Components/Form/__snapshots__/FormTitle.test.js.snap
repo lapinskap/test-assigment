@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormTitle /> renders correctly with all props 1`] = `
+<div
+  className="sticky-outer-wrapper"
+  style={Object {}}
+>
+  <div
+    className="sticky-inner-wrapper"
+    style={
+      Object {
+        "position": "relative",
+        "top": "0px",
+        "zIndex": undefined,
+      }
+    }
+  >
+    <div
+      className="card-header-lg text-transform-none card-header"
+    >
+      <div
+        className="card-header-title font-size-lg font-weight-normal"
+      >
+        Test title
+      </div>
+      <div
+        className="btn-actions-pane-right"
+      >
+        <button
+          type="submit"
+        >
+          Button 1
+        </button>
+        <button
+          type="button"
+        >
+          Button 2
+        </button>
+        <button
+          type="button"
+        >
+          Button 3
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FormTitle /> renders correctly with valid buttons 1`] = `
+<div
+  className="sticky-outer-wrapper"
+  style={Object {}}
+>
+  <div
+    className="sticky-inner-wrapper"
+    style={
+      Object {
+        "position": "relative",
+        "top": "",
+        "transform": "translate3d(0,0px,0)",
+        "zIndex": undefined,
+      }
+    }
+  >
+    <div
+      className="card-header-lg text-transform-none card-header"
+    >
+      <div
+        className="card-header-title font-size-lg font-weight-normal"
+      >
+        Test title
+      </div>
+      <div
+        className="btn-actions-pane-right"
+      >
+        <button
+          type="submit"
+        >
+          Button 1
+        </button>
+        <button
+          type="button"
+        >
+          Button 2
+        </button>
+        <button
+          type="button"
+        >
+          Button 3
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

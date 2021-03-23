@@ -1,0 +1,16 @@
+{
+  "orders": [
+  {
+    "entity_id": 1143432,
+    "items": [
+      {
+        "sku": "EMPIK_150",
+        "supplier": "Empik",
+        "name": "Bon do Empiku",
+        "price_incl_tax": 150,
+        "points_bank": "[{\"id\":\"de268ebfe6a24b5dbecc760197f0578b\",\"balance\":100},{\"id\":\"ae268ebfe6a24b5dbecc760197f0578b\",\"balance\":50}]"
+      }
+    ]
+  }
+]
+}

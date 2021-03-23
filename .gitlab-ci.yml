@@ -1,0 +1,52 @@
+include:
+  - project: 'devops/ci-scripts/gitlab_templates'
+    ref: 1.0.34
+    file: 'templates/.version.yml'
+  - project: 'devops/ci-scripts/gitlab_templates'
+    ref: 1.0.34
+    file: 'templates/.docker.yml'
+  - project: 'devops/ci-scripts/gitlab_templates'
+    ref: 1.1.0
+    file: 'templates/.eks-terraform-deploy.yml'
+
+
+stages:
+  - app-tests
+  - version
+  - docker-build
+  - eks-terraform-deploy
+
+
+
+Test and code Quality:
+  stage: app-tests
+  image: node:12.18.2-alpine
+  script:
+    - cp .devProxyConfig.json.dist .devProxyConfig.json
+    - cp ./src/.appConfig.json.dist ./src/.appConfig.json
+    - cp .env.dist .env
+    - npm install
+    - npm run lint && npm run test-ci -- --coverage
+  only:
+    - merge_requests
+  tags:
+    - aws_docker_ami
+
+
+Fix version:
+  stage: version
+  variables:
+    TEMPLATE_SCRIPTS_VERSION: 1.0.34
+
+
+docker-build:
+  stage: docker-build
+  variables:
+    TEMPLATE_SCRIPTS_VERSION: 1.0.34
+    NAMESPACE: feniks-backend-ui
+    REPO_GROUP: global4net
+
+eks-terraform-deploy:
+  stage: eks-terraform-deploy
+  variables:
+    TEMPLATE_SCRIPTS_VERSION: 1.1.0

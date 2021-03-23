@@ -1,0 +1,24 @@
+{
+  "endpoints": {
+    "translator": "/api/translator/v1/rest",
+    "sso": "/api/sso/v1/rest",
+    "company-management": "/api/company-management/v1/rest",
+    "magento-helper": "/api/magento-helper/v1/rest",
+    "employee-management": "/api/employee-management/v1/rest",
+    "operator-management": "/api/operator-management/v1/rest",
+    "magento-admin": "/api/magento-admin/v1/rest",
+    "configuration": "/api/configuration/v1/rest",
+    "agreement": "/api/agreement/v1/rest",
+    "notification": "/api/notification/v1/rest",
+    "employee-group-product": "/api/employee-group-product/v1/rest",
+    "cms": "/api/cms/v1/rest",
+    "dictionary": "/api/dictionary/v1/rest",
+    "catalog-management": "/api/catalog-management/v1/rest",
+    "subscription-management": "/api/subscription-management/v1/rest",
+    "tourism": "/api/tourism/v1/rest",
+    "masterdata": "/mdp_api/api",
+    "report": "/report_api/api"
+  },
+  "frontAppDomain": "%env(REACT_APP_FRONTEND_DOMAIN)%",
+  "mediaUrl": "%env(REACT_APP_MEDIA_URL)%"
+}

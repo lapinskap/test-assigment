@@ -1,0 +1,10 @@
+[
+  {
+    "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+    "name": "AHR_MAX_test",
+    "description": "grupa AHR_MAX",
+    "employeeCount": 4,
+    "employeeIds": ["a43275e4-eeb2-11ea-adc1-0242ac1200021","a43275e4-eeb2-11ea-adc1-0242ac1200022"],
+    "permissions": ["PERMISSION_1", "PERMISSION_2"]
+  }
+]

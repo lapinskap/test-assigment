@@ -1,0 +1,1620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AttachmentForm renders correctly 1`] = `
+<AttachmentForm
+  attachmentId={23}
+  close={[Function]}
+  companyId={5}
+  isOpen={true}
+>
+  <Popup
+    id="attachmentPopup"
+    isOpen={true}
+    toggle={[Function]}
+    unmountOnClose={true}
+  >
+    <Modal
+      autoFocus={true}
+      backdrop={true}
+      backdropTransition={
+        Object {
+          "mountOnEnter": true,
+          "timeout": 150,
+        }
+      }
+      centered={false}
+      container="body"
+      fade={true}
+      isOpen={true}
+      keyboard={true}
+      modalTransition={
+        Object {
+          "timeout": 300,
+        }
+      }
+      onClosed={[Function]}
+      onOpened={[Function]}
+      returnFocusAfterClose={true}
+      role="dialog"
+      scrollable={false}
+      toggle={[Function]}
+      unmountOnClose={true}
+      zIndex={1050}
+    >
+      <Portal
+        node={
+          <div
+            style="position: relative; z-index: 1050; display: block;"
+            tabindex="-1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="modal fade"
+                role="dialog"
+                style="display: block;"
+                tabindex="-1"
+              >
+                <div
+                  class="modal-dialog"
+                  role="document"
+                >
+                  <div
+                    class="modal-content"
+                  >
+                    <div
+                      data-t1="attachmentPopup"
+                    >
+                      <div
+                        class="Loader"
+                        style="position: relative;"
+                      >
+                        <div
+                          class="Loader__content"
+                          style="opacity: 1; filter: blur(4px);"
+                        >
+                          <form
+                            class=""
+                            data-t1="attachmentForm"
+                          >
+                            <div
+                              class="modal-header"
+                            >
+                              <h5
+                                class="modal-title"
+                              >
+                                Edycja załącznika 23
+                              </h5>
+                              <button
+                                aria-label="Close"
+                                class="close"
+                                type="button"
+                              >
+                                <span
+                                  aria-hidden="true"
+                                >
+                                  ×
+                                </span>
+                              </button>
+                            </div>
+                            <div
+                              class="modal-body"
+                            >
+                              <div
+                                class="main-card mb-3"
+                              >
+                                <div
+                                  class="pt-4"
+                                >
+                                  <div
+                                    class="form-group"
+                                  >
+                                    <label
+                                      class=""
+                                      data-t1="typeLabel"
+                                      for="type"
+                                    >
+                                      Typ załącznika
+                                       
+                                      <span
+                                        class="text-danger"
+                                      >
+                                        *
+                                      </span>
+                                    </label>
+                                    <div
+                                      class="input-group"
+                                    >
+                                      <select
+                                        class="form-control"
+                                        data-t1="type"
+                                        id="type"
+                                        name="type"
+                                      >
+                                        <option
+                                          value=""
+                                        >
+                                          ---Nie wybrano ---
+                                        </option>
+                                        <option
+                                          value="regulations"
+                                        >
+                                          Regulamin
+                                        </option>
+                                        <option
+                                          value="form"
+                                        >
+                                          Formularz
+                                        </option>
+                                        <option
+                                          value="other"
+                                        >
+                                          Inne dokumenty
+                                        </option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="form-group"
+                                  >
+                                    <label
+                                      class=""
+                                      data-t1="nameLabel"
+                                      for="name"
+                                    >
+                                      Nazwa dokumentu
+                                       
+                                      <span
+                                        class="text-danger"
+                                      >
+                                        *
+                                      </span>
+                                       
+                                      
+                                    </label>
+                                    <div
+                                      class="input-group"
+                                    >
+                                      <input
+                                        aria-invalid="false"
+                                        autocomplete="chrome-off"
+                                        class="form-control"
+                                        data-t1="name"
+                                        id="name"
+                                        name="name"
+                                        type="text"
+                                        value=""
+                                      />
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="form-group"
+                                  >
+                                    <label
+                                      class=""
+                                      data-t1="descriptionLabel"
+                                      for="description"
+                                    >
+                                      Opis dokumentu
+                                       
+                                      
+                                    </label>
+                                    <div
+                                      class="input-group"
+                                    >
+                                      <input
+                                        aria-invalid="false"
+                                        autocomplete="chrome-off"
+                                        class="form-control"
+                                        data-t1="description"
+                                        id="description"
+                                        name="description"
+                                        type="text"
+                                        value=""
+                                      />
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="form-group"
+                                  >
+                                    <label
+                                      class=""
+                                      for="23"
+                                    >
+                                      Plik
+                                      :
+                                    </label>
+                                    <div
+                                      id="23"
+                                    >
+                                      
+                                       
+                                      <button
+                                        class="btn btn-link"
+                                        type="button"
+                                      >
+                                        Pobierz
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <button
+                                    class="not-allowed btn btn-secondary disabled"
+                                    data-t1="selectAttachmentFiles"
+                                    disabled=""
+                                    title="Nie masz uprawnień (company:attachment:write)"
+                                    type="button"
+                                  >
+                                    Wybierz pliki
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="modal-footer"
+                            >
+                              <button
+                                class="mr-2 not-allowed btn btn-primary btn-lg disabled"
+                                data-t1="attachmentFormSubmit"
+                                disabled=""
+                                title="Nie masz uprawnień (company:attachment:write)"
+                                type="submit"
+                              >
+                                Zapisz
+                              </button>
+                            </div>
+                            <button
+                              class="d-none"
+                              type="submit"
+                            >
+                              submit
+                            </button>
+                          </form>
+                        </div>
+                        <div
+                          class="Loader__background"
+                          style="display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 10;"
+                        >
+                          <div
+                            class="Loader__foreground"
+                            style="display: table; width: 100%; height: 100%; text-align: center; z-index: 20; color: white;"
+                          >
+                            <div
+                              class="Loader__message"
+                              style="display: table-cell; vertical-align: middle; position: absolute; top: 20%; right: 50%;"
+                            >
+                              <div
+                                class="loader loader-undefined loader-active"
+                              >
+                                <div
+                                  class="loader-inner line-scale"
+                                >
+                                  <div
+                                    style="background-color: rgb(84, 92, 216);"
+                                  />
+                                  <div
+                                    style="background-color: rgb(84, 92, 216);"
+                                  />
+                                  <div
+                                    style="background-color: rgb(84, 92, 216);"
+                                  />
+                                  <div
+                                    style="background-color: rgb(84, 92, 216);"
+                                  />
+                                  <div
+                                    style="background-color: rgb(84, 92, 216);"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="modal-backdrop fade"
+              />
+            </div>
+          </div>
+        }
+      >
+        <Portal
+          containerInfo={
+            <div
+              style="position: relative; z-index: 1050; display: block;"
+              tabindex="-1"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="modal fade"
+                  role="dialog"
+                  style="display: block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-dialog"
+                    role="document"
+                  >
+                    <div
+                      class="modal-content"
+                    >
+                      <div
+                        data-t1="attachmentPopup"
+                      >
+                        <div
+                          class="Loader"
+                          style="position: relative;"
+                        >
+                          <div
+                            class="Loader__content"
+                            style="opacity: 1; filter: blur(4px);"
+                          >
+                            <form
+                              class=""
+                              data-t1="attachmentForm"
+                            >
+                              <div
+                                class="modal-header"
+                              >
+                                <h5
+                                  class="modal-title"
+                                >
+                                  Edycja załącznika 23
+                                </h5>
+                                <button
+                                  aria-label="Close"
+                                  class="close"
+                                  type="button"
+                                >
+                                  <span
+                                    aria-hidden="true"
+                                  >
+                                    ×
+                                  </span>
+                                </button>
+                              </div>
+                              <div
+                                class="modal-body"
+                              >
+                                <div
+                                  class="main-card mb-3"
+                                >
+                                  <div
+                                    class="pt-4"
+                                  >
+                                    <div
+                                      class="form-group"
+                                    >
+                                      <label
+                                        class=""
+                                        data-t1="typeLabel"
+                                        for="type"
+                                      >
+                                        Typ załącznika
+                                         
+                                        <span
+                                          class="text-danger"
+                                        >
+                                          *
+                                        </span>
+                                      </label>
+                                      <div
+                                        class="input-group"
+                                      >
+                                        <select
+                                          class="form-control"
+                                          data-t1="type"
+                                          id="type"
+                                          name="type"
+                                        >
+                                          <option
+                                            value=""
+                                          >
+                                            ---Nie wybrano ---
+                                          </option>
+                                          <option
+                                            value="regulations"
+                                          >
+                                            Regulamin
+                                          </option>
+                                          <option
+                                            value="form"
+                                          >
+                                            Formularz
+                                          </option>
+                                          <option
+                                            value="other"
+                                          >
+                                            Inne dokumenty
+                                          </option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="form-group"
+                                    >
+                                      <label
+                                        class=""
+                                        data-t1="nameLabel"
+                                        for="name"
+                                      >
+                                        Nazwa dokumentu
+                                         
+                                        <span
+                                          class="text-danger"
+                                        >
+                                          *
+                                        </span>
+                                         
+                                        
+                                      </label>
+                                      <div
+                                        class="input-group"
+                                      >
+                                        <input
+                                          aria-invalid="false"
+                                          autocomplete="chrome-off"
+                                          class="form-control"
+                                          data-t1="name"
+                                          id="name"
+                                          name="name"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="form-group"
+                                    >
+                                      <label
+                                        class=""
+                                        data-t1="descriptionLabel"
+                                        for="description"
+                                      >
+                                        Opis dokumentu
+                                         
+                                        
+                                      </label>
+                                      <div
+                                        class="input-group"
+                                      >
+                                        <input
+                                          aria-invalid="false"
+                                          autocomplete="chrome-off"
+                                          class="form-control"
+                                          data-t1="description"
+                                          id="description"
+                                          name="description"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="form-group"
+                                    >
+                                      <label
+                                        class=""
+                                        for="23"
+                                      >
+                                        Plik
+                                        :
+                                      </label>
+                                      <div
+                                        id="23"
+                                      >
+                                        
+                                         
+                                        <button
+                                          class="btn btn-link"
+                                          type="button"
+                                        >
+                                          Pobierz
+                                        </button>
+                                      </div>
+                                    </div>
+                                    <button
+                                      class="not-allowed btn btn-secondary disabled"
+                                      data-t1="selectAttachmentFiles"
+                                      disabled=""
+                                      title="Nie masz uprawnień (company:attachment:write)"
+                                      type="button"
+                                    >
+                                      Wybierz pliki
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="modal-footer"
+                              >
+                                <button
+                                  class="mr-2 not-allowed btn btn-primary btn-lg disabled"
+                                  data-t1="attachmentFormSubmit"
+                                  disabled=""
+                                  title="Nie masz uprawnień (company:attachment:write)"
+                                  type="submit"
+                                >
+                                  Zapisz
+                                </button>
+                              </div>
+                              <button
+                                class="d-none"
+                                type="submit"
+                              >
+                                submit
+                              </button>
+                            </form>
+                          </div>
+                          <div
+                            class="Loader__background"
+                            style="display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 10;"
+                          >
+                            <div
+                              class="Loader__foreground"
+                              style="display: table; width: 100%; height: 100%; text-align: center; z-index: 20; color: white;"
+                            >
+                              <div
+                                class="Loader__message"
+                                style="display: table-cell; vertical-align: middle; position: absolute; top: 20%; right: 50%;"
+                              >
+                                <div
+                                  class="loader loader-undefined loader-active"
+                                >
+                                  <div
+                                    class="loader-inner line-scale"
+                                  >
+                                    <div
+                                      style="background-color: rgb(84, 92, 216);"
+                                    />
+                                    <div
+                                      style="background-color: rgb(84, 92, 216);"
+                                    />
+                                    <div
+                                      style="background-color: rgb(84, 92, 216);"
+                                    />
+                                    <div
+                                      style="background-color: rgb(84, 92, 216);"
+                                    />
+                                    <div
+                                      style="background-color: rgb(84, 92, 216);"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="modal-backdrop fade"
+                />
+              </div>
+            </div>
+          }
+        >
+          <div
+            className=""
+          >
+            <Fade
+              appear={true}
+              baseClass="fade"
+              baseClassActive="show"
+              className="modal"
+              enter={true}
+              exit={true}
+              in={true}
+              mountOnEnter={false}
+              onClick={[Function]}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              role="dialog"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+              tabIndex="-1"
+              tag="div"
+              timeout={300}
+              unmountOnExit={false}
+            >
+              <Transition
+                appear={true}
+                enter={true}
+                exit={true}
+                in={true}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <div
+                  className="modal fade"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  role="dialog"
+                  style={
+                    Object {
+                      "display": "block",
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div
+                    className="modal-dialog"
+                    role="document"
+                  >
+                    <div
+                      className="modal-content"
+                    >
+                      <div
+                        data-t1="attachmentPopup"
+                      >
+                        <DataLoading
+                          endpoint="/attachments/23"
+                          fetchedData={false}
+                          forceLoader={false}
+                          isMock={false}
+                          isNew={false}
+                          mockDataEndpoint="/company/attachments/list"
+                          options={Object {}}
+                          service="company-management"
+                          updateData={[Function]}
+                        >
+                          <ContentLoading
+                            backgroundStyle={null}
+                            message={
+                              <Loader
+                                active={true}
+                                color="#545cd8"
+                                type="line-scale"
+                              />
+                            }
+                            messageStyle={
+                              Object {
+                                "position": "absolute",
+                                "right": "50%",
+                                "top": "20%",
+                              }
+                            }
+                            show={true}
+                            useBlur={true}
+                          >
+                            <Loader
+                              backgroundStyle={null}
+                              contentBlur={4}
+                              message={
+                                <Loader
+                                  active={true}
+                                  color="#545cd8"
+                                  type="line-scale"
+                                />
+                              }
+                              messageStyle={
+                                Object {
+                                  "position": "absolute",
+                                  "right": "50%",
+                                  "top": "20%",
+                                }
+                              }
+                              priority={0}
+                              show={true}
+                            >
+                              <div
+                                className="Loader"
+                                style={
+                                  Object {
+                                    "position": "relative",
+                                  }
+                                }
+                              >
+                                <div
+                                  className="Loader__content"
+                                  style={
+                                    Object {
+                                      "MozFilter": "blur(4px)",
+                                      "OFilter": "blur(4px)",
+                                      "WebkitFilter": "blur(4px)",
+                                      "filter": "blur(4px)",
+                                      "msFilter": "blur(4px)",
+                                      "opacity": 1,
+                                    }
+                                  }
+                                >
+                                  <FormComponent
+                                    config={
+                                      Object {
+                                        "buttons": Array [
+                                          Object {
+                                            "className": "mr-2",
+                                            "color": "primary",
+                                            "id": "attachmentFormSubmit",
+                                            "permission": "company:attachment:write",
+                                            "size": "lg",
+                                            "text": "Zapisz",
+                                            "type": "submit",
+                                          },
+                                        ],
+                                        "defaultOnChange": [Function],
+                                        "formGroups": Array [
+                                          Object {
+                                            "formElements": Array [
+                                              Object {
+                                                "dataOldSk": "type",
+                                                "id": "type",
+                                                "label": "Typ załącznika",
+                                                "options": Array [
+                                                  Object {
+                                                    "label": "Regulamin",
+                                                    "value": "regulations",
+                                                  },
+                                                  Object {
+                                                    "label": "Formularz",
+                                                    "value": "form",
+                                                  },
+                                                  Object {
+                                                    "label": "Inne dokumenty",
+                                                    "value": "other",
+                                                  },
+                                                ],
+                                                "type": "select",
+                                                "validation": Array [
+                                                  "required",
+                                                ],
+                                              },
+                                              Object {
+                                                "dataOldSk": "name",
+                                                "id": "name",
+                                                "label": "Nazwa dokumentu",
+                                                "type": "text",
+                                                "validation": Array [
+                                                  "required",
+                                                ],
+                                              },
+                                              Object {
+                                                "dataOldSk": "document_desc",
+                                                "id": "description",
+                                                "label": "Opis dokumentu",
+                                                "type": "text",
+                                              },
+                                              Object {
+                                                "component": <FilePreview
+                                                  attachmentId={23}
+                                                  fileName=""
+                                                />,
+                                                "displayCondition": true,
+                                              },
+                                              Object {
+                                                "component": <RbsButton
+                                                  className={null}
+                                                  data-t1="selectAttachmentFiles"
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  permission="company:attachment:write"
+                                                  title={null}
+                                                >
+                                                  Wybierz pliki
+                                                </RbsButton>,
+                                              },
+                                            ],
+                                          },
+                                        ],
+                                        "isInPopup": true,
+                                        "onSubmit": [Function],
+                                        "title": "Edycja załącznika 23",
+                                        "togglePopup": [Function],
+                                      }
+                                    }
+                                    data={Object {}}
+                                    id="attachmentForm"
+                                  >
+                                    <Form
+                                      data-t1="attachmentForm"
+                                      onSubmit={[Function]}
+                                      tag="form"
+                                    >
+                                      <form
+                                        className=""
+                                        data-t1="attachmentForm"
+                                        onSubmit={[Function]}
+                                      >
+                                        <ModalHeader
+                                          charCode={215}
+                                          closeAriaLabel="Close"
+                                          tag="h5"
+                                          toggle={[Function]}
+                                          wrapTag="div"
+                                        >
+                                          <div
+                                            className="modal-header"
+                                          >
+                                            <h5
+                                              className="modal-title"
+                                            >
+                                              Edycja załącznika 23
+                                            </h5>
+                                            <button
+                                              aria-label="Close"
+                                              className="close"
+                                              onClick={[Function]}
+                                              type="button"
+                                            >
+                                              <span
+                                                aria-hidden="true"
+                                              >
+                                                ×
+                                              </span>
+                                            </button>
+                                          </div>
+                                        </ModalHeader>
+                                        <ModalBody
+                                          tag="div"
+                                        >
+                                          <div
+                                            className="modal-body"
+                                          >
+                                            <FormGroup
+                                              data={Object {}}
+                                              defaultOnChange={[Function]}
+                                              formElements={
+                                                Array [
+                                                  Object {
+                                                    "dataOldSk": "type",
+                                                    "id": "type",
+                                                    "label": "Typ załącznika",
+                                                    "options": Array [
+                                                      Object {
+                                                        "label": "Regulamin",
+                                                        "value": "regulations",
+                                                      },
+                                                      Object {
+                                                        "label": "Formularz",
+                                                        "value": "form",
+                                                      },
+                                                      Object {
+                                                        "label": "Inne dokumenty",
+                                                        "value": "other",
+                                                      },
+                                                    ],
+                                                    "type": "select",
+                                                    "validation": Array [
+                                                      "required",
+                                                    ],
+                                                  },
+                                                  Object {
+                                                    "dataOldSk": "name",
+                                                    "id": "name",
+                                                    "label": "Nazwa dokumentu",
+                                                    "type": "text",
+                                                    "validation": Array [
+                                                      "required",
+                                                    ],
+                                                  },
+                                                  Object {
+                                                    "dataOldSk": "document_desc",
+                                                    "id": "description",
+                                                    "label": "Opis dokumentu",
+                                                    "type": "text",
+                                                  },
+                                                  Object {
+                                                    "component": <FilePreview
+                                                      attachmentId={23}
+                                                      fileName=""
+                                                    />,
+                                                    "displayCondition": true,
+                                                  },
+                                                  Object {
+                                                    "component": <RbsButton
+                                                      className={null}
+                                                      data-t1="selectAttachmentFiles"
+                                                      disabled={false}
+                                                      onClick={[Function]}
+                                                      permission="company:attachment:write"
+                                                      title={null}
+                                                    >
+                                                      Wybierz pliki
+                                                    </RbsButton>,
+                                                  },
+                                                ]
+                                              }
+                                              groupsAsColumns={false}
+                                              id={0}
+                                              invalidFields={Object {}}
+                                              key="0"
+                                              noCards={true}
+                                              title=""
+                                              tooltip={null}
+                                              validateField={[Function]}
+                                            >
+                                              <NoCardWrapper
+                                                id={0}
+                                                title=""
+                                                tooltip={null}
+                                              >
+                                                <div
+                                                  className="main-card mb-3"
+                                                >
+                                                  <div
+                                                    className="pt-4"
+                                                  >
+                                                    <FormElement
+                                                      className=""
+                                                      dataOldSk="type"
+                                                      displayCondition={false}
+                                                      errorMessage={null}
+                                                      fetchOptions={null}
+                                                      id="type"
+                                                      inputSwitcher={null}
+                                                      isCheckbox={null}
+                                                      key="0"
+                                                      label="Typ załącznika"
+                                                      legend={Array []}
+                                                      onChange={[Function]}
+                                                      options={
+                                                        Array [
+                                                          Object {
+                                                            "label": "Regulamin",
+                                                            "value": "regulations",
+                                                          },
+                                                          Object {
+                                                            "label": "Formularz",
+                                                            "value": "form",
+                                                          },
+                                                          Object {
+                                                            "label": "Inne dokumenty",
+                                                            "value": "other",
+                                                          },
+                                                        ]
+                                                      }
+                                                      placeholder=""
+                                                      prefix=""
+                                                      props={Object {}}
+                                                      showTimeSelect={false}
+                                                      suffix=""
+                                                      tooltip={null}
+                                                      tooltipPosition="label"
+                                                      translatable={null}
+                                                      type="select"
+                                                      validateField={[Function]}
+                                                      validation={
+                                                        Array [
+                                                          "required",
+                                                        ]
+                                                      }
+                                                      value={null}
+                                                      valueFormatter={null}
+                                                    >
+                                                      <FormGroup
+                                                        tag="div"
+                                                      >
+                                                        <div
+                                                          className="form-group"
+                                                        >
+                                                          <Label
+                                                            data-t1="typeLabel"
+                                                            for="type"
+                                                            tag="label"
+                                                            widths={
+                                                              Array [
+                                                                "xs",
+                                                                "sm",
+                                                                "md",
+                                                                "lg",
+                                                                "xl",
+                                                              ]
+                                                            }
+                                                          >
+                                                            <label
+                                                              className=""
+                                                              data-t1="typeLabel"
+                                                              htmlFor="type"
+                                                            >
+                                                              Typ załącznika
+                                                               
+                                                              <span
+                                                                className="text-danger"
+                                                              >
+                                                                *
+                                                              </span>
+                                                            </label>
+                                                          </Label>
+                                                          <InputGroup
+                                                            tag="div"
+                                                          >
+                                                            <div
+                                                              className="input-group"
+                                                            >
+                                                              <Input
+                                                                className=""
+                                                                data-t1="type"
+                                                                id="type"
+                                                                name="type"
+                                                                onChange={[Function]}
+                                                                type="select"
+                                                              >
+                                                                <select
+                                                                  className="form-control"
+                                                                  data-t1="type"
+                                                                  id="type"
+                                                                  name="type"
+                                                                  onChange={[Function]}
+                                                                >
+                                                                  <option
+                                                                    key=""
+                                                                    value=""
+                                                                  >
+                                                                    ---Nie wybrano ---
+                                                                  </option>
+                                                                  <option
+                                                                    key="regulations"
+                                                                    value="regulations"
+                                                                  >
+                                                                    Regulamin
+                                                                  </option>
+                                                                  <option
+                                                                    key="form"
+                                                                    value="form"
+                                                                  >
+                                                                    Formularz
+                                                                  </option>
+                                                                  <option
+                                                                    key="other"
+                                                                    value="other"
+                                                                  >
+                                                                    Inne dokumenty
+                                                                  </option>
+                                                                </select>
+                                                              </Input>
+                                                              <ValidationMessage
+                                                                message={null}
+                                                              />
+                                                            </div>
+                                                          </InputGroup>
+                                                        </div>
+                                                      </FormGroup>
+                                                    </FormElement>
+                                                    <FormElement
+                                                      className=""
+                                                      dataOldSk="name"
+                                                      displayCondition={false}
+                                                      errorMessage={null}
+                                                      fetchOptions={null}
+                                                      id="name"
+                                                      inputSwitcher={null}
+                                                      isCheckbox={null}
+                                                      key="1"
+                                                      label="Nazwa dokumentu"
+                                                      legend={Array []}
+                                                      onChange={[Function]}
+                                                      options={Array []}
+                                                      placeholder=""
+                                                      prefix=""
+                                                      props={Object {}}
+                                                      showTimeSelect={false}
+                                                      suffix=""
+                                                      tooltip={null}
+                                                      tooltipPosition="label"
+                                                      translatable={null}
+                                                      type="text"
+                                                      validateField={[Function]}
+                                                      validation={
+                                                        Array [
+                                                          "required",
+                                                        ]
+                                                      }
+                                                      value={null}
+                                                      valueFormatter={null}
+                                                    >
+                                                      <FormGroup
+                                                        tag="div"
+                                                      >
+                                                        <div
+                                                          className="form-group"
+                                                        >
+                                                          <Label
+                                                            data-t1="nameLabel"
+                                                            for="name"
+                                                            tag="label"
+                                                            widths={
+                                                              Array [
+                                                                "xs",
+                                                                "sm",
+                                                                "md",
+                                                                "lg",
+                                                                "xl",
+                                                              ]
+                                                            }
+                                                          >
+                                                            <label
+                                                              className=""
+                                                              data-t1="nameLabel"
+                                                              htmlFor="name"
+                                                            >
+                                                              Nazwa dokumentu
+                                                               
+                                                              <span
+                                                                className="text-danger"
+                                                              >
+                                                                *
+                                                              </span>
+                                                               
+                                                            </label>
+                                                          </Label>
+                                                          <InputGroup
+                                                            tag="div"
+                                                          >
+                                                            <div
+                                                              className="input-group"
+                                                            >
+                                                              <Input
+                                                                autoComplete="chrome-off"
+                                                                className=""
+                                                                data-t1="name"
+                                                                id="name"
+                                                                invalid={false}
+                                                                name="name"
+                                                                onBlur={[Function]}
+                                                                onChange={[Function]}
+                                                                placeholder={null}
+                                                                type="text"
+                                                                value=""
+                                                              >
+                                                                <input
+                                                                  aria-invalid={false}
+                                                                  autoComplete="chrome-off"
+                                                                  className="form-control"
+                                                                  data-t1="name"
+                                                                  id="name"
+                                                                  name="name"
+                                                                  onBlur={[Function]}
+                                                                  onChange={[Function]}
+                                                                  placeholder={null}
+                                                                  type="text"
+                                                                  value=""
+                                                                />
+                                                              </Input>
+                                                              <ValidationMessage
+                                                                message={null}
+                                                              />
+                                                            </div>
+                                                          </InputGroup>
+                                                        </div>
+                                                      </FormGroup>
+                                                    </FormElement>
+                                                    <FormElement
+                                                      className=""
+                                                      dataOldSk="document_desc"
+                                                      displayCondition={false}
+                                                      errorMessage={null}
+                                                      fetchOptions={null}
+                                                      id="description"
+                                                      inputSwitcher={null}
+                                                      isCheckbox={null}
+                                                      key="2"
+                                                      label="Opis dokumentu"
+                                                      legend={Array []}
+                                                      onChange={[Function]}
+                                                      options={Array []}
+                                                      placeholder=""
+                                                      prefix=""
+                                                      props={Object {}}
+                                                      showTimeSelect={false}
+                                                      suffix=""
+                                                      tooltip={null}
+                                                      tooltipPosition="label"
+                                                      translatable={null}
+                                                      type="text"
+                                                      validateField={[Function]}
+                                                      validation={Array []}
+                                                      value={null}
+                                                      valueFormatter={null}
+                                                    >
+                                                      <FormGroup
+                                                        tag="div"
+                                                      >
+                                                        <div
+                                                          className="form-group"
+                                                        >
+                                                          <Label
+                                                            data-t1="descriptionLabel"
+                                                            for="description"
+                                                            tag="label"
+                                                            widths={
+                                                              Array [
+                                                                "xs",
+                                                                "sm",
+                                                                "md",
+                                                                "lg",
+                                                                "xl",
+                                                              ]
+                                                            }
+                                                          >
+                                                            <label
+                                                              className=""
+                                                              data-t1="descriptionLabel"
+                                                              htmlFor="description"
+                                                            >
+                                                              Opis dokumentu
+                                                               
+                                                            </label>
+                                                          </Label>
+                                                          <InputGroup
+                                                            tag="div"
+                                                          >
+                                                            <div
+                                                              className="input-group"
+                                                            >
+                                                              <Input
+                                                                autoComplete="chrome-off"
+                                                                className=""
+                                                                data-t1="description"
+                                                                id="description"
+                                                                invalid={false}
+                                                                name="description"
+                                                                onBlur={[Function]}
+                                                                onChange={[Function]}
+                                                                placeholder={null}
+                                                                type="text"
+                                                                value=""
+                                                              >
+                                                                <input
+                                                                  aria-invalid={false}
+                                                                  autoComplete="chrome-off"
+                                                                  className="form-control"
+                                                                  data-t1="description"
+                                                                  id="description"
+                                                                  name="description"
+                                                                  onBlur={[Function]}
+                                                                  onChange={[Function]}
+                                                                  placeholder={null}
+                                                                  type="text"
+                                                                  value=""
+                                                                />
+                                                              </Input>
+                                                              <ValidationMessage
+                                                                message={null}
+                                                              />
+                                                            </div>
+                                                          </InputGroup>
+                                                        </div>
+                                                      </FormGroup>
+                                                    </FormElement>
+                                                    <FilePreview
+                                                      attachmentId={23}
+                                                      fileName=""
+                                                      key="attachmentPreview"
+                                                    >
+                                                      <FormGroup
+                                                        tag="div"
+                                                      >
+                                                        <div
+                                                          className="form-group"
+                                                        >
+                                                          <Label
+                                                            for={23}
+                                                            tag="label"
+                                                            widths={
+                                                              Array [
+                                                                "xs",
+                                                                "sm",
+                                                                "md",
+                                                                "lg",
+                                                                "xl",
+                                                              ]
+                                                            }
+                                                          >
+                                                            <label
+                                                              className=""
+                                                              htmlFor={23}
+                                                            >
+                                                              Plik
+                                                              :
+                                                            </label>
+                                                          </Label>
+                                                          <div
+                                                            id={23}
+                                                          >
+                                                             
+                                                            <Button
+                                                              color="link"
+                                                              onClick={[Function]}
+                                                              tag="button"
+                                                            >
+                                                              <button
+                                                                aria-label={null}
+                                                                className="btn btn-link"
+                                                                onClick={[Function]}
+                                                                type="button"
+                                                              >
+                                                                Pobierz
+                                                              </button>
+                                                            </Button>
+                                                          </div>
+                                                        </div>
+                                                      </FormGroup>
+                                                    </FilePreview>
+                                                    <RbsButton
+                                                      className={null}
+                                                      data-t1="selectAttachmentFiles"
+                                                      disabled={false}
+                                                      onClick={[Function]}
+                                                      permission="company:attachment:write"
+                                                      title={null}
+                                                    >
+                                                      <Button
+                                                        className="not-allowed"
+                                                        color="secondary"
+                                                        data-t1="selectAttachmentFiles"
+                                                        disabled={true}
+                                                        onClick={[Function]}
+                                                        tag="button"
+                                                        title="Nie masz uprawnień (company:attachment:write)"
+                                                      >
+                                                        <button
+                                                          aria-label={null}
+                                                          className="not-allowed btn btn-secondary disabled"
+                                                          data-t1="selectAttachmentFiles"
+                                                          disabled={true}
+                                                          onClick={[Function]}
+                                                          title="Nie masz uprawnień (company:attachment:write)"
+                                                          type="button"
+                                                        >
+                                                          Wybierz pliki
+                                                        </button>
+                                                      </Button>
+                                                    </RbsButton>
+                                                  </div>
+                                                </div>
+                                              </NoCardWrapper>
+                                            </FormGroup>
+                                          </div>
+                                        </ModalBody>
+                                        <ModalFooter
+                                          tag="div"
+                                        >
+                                          <div
+                                            className="modal-footer"
+                                          >
+                                            <ButtonsList
+                                              buttons={
+                                                Array [
+                                                  Object {
+                                                    "className": "mr-2",
+                                                    "color": "primary",
+                                                    "id": "attachmentFormSubmit",
+                                                    "permission": "company:attachment:write",
+                                                    "size": "lg",
+                                                    "text": "Zapisz",
+                                                    "type": "submit",
+                                                  },
+                                                ]
+                                              }
+                                            >
+                                              <RbsButton
+                                                className="mr-2"
+                                                color="primary"
+                                                data-t1="attachmentFormSubmit"
+                                                disabled={false}
+                                                href={null}
+                                                key="attachmentFormSubmit"
+                                                onClick={[Function]}
+                                                permission="company:attachment:write"
+                                                size="lg"
+                                                title="Zapisz"
+                                                type="submit"
+                                              >
+                                                <Button
+                                                  className="mr-2 not-allowed"
+                                                  color="primary"
+                                                  data-t1="attachmentFormSubmit"
+                                                  disabled={true}
+                                                  href={null}
+                                                  onClick={[Function]}
+                                                  size="lg"
+                                                  tag="button"
+                                                  title="Nie masz uprawnień (company:attachment:write)"
+                                                  type="submit"
+                                                >
+                                                  <button
+                                                    aria-label={null}
+                                                    className="mr-2 not-allowed btn btn-primary btn-lg disabled"
+                                                    data-t1="attachmentFormSubmit"
+                                                    disabled={true}
+                                                    href={null}
+                                                    onClick={[Function]}
+                                                    title="Nie masz uprawnień (company:attachment:write)"
+                                                    type="submit"
+                                                  >
+                                                    Zapisz
+                                                  </button>
+                                                </Button>
+                                              </RbsButton>
+                                            </ButtonsList>
+                                          </div>
+                                        </ModalFooter>
+                                        <button
+                                          className="d-none"
+                                          type="submit"
+                                        >
+                                          submit
+                                        </button>
+                                      </form>
+                                    </Form>
+                                  </FormComponent>
+                                </div>
+                                <div
+                                  className="Loader__background"
+                                  style={
+                                    Object {
+                                      "backgroundColor": "rgba(0,0,0,0.5)",
+                                      "display": "block",
+                                      "height": "100%",
+                                      "left": 0,
+                                      "position": "absolute",
+                                      "top": 0,
+                                      "width": "100%",
+                                      "zIndex": 10,
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="Loader__foreground"
+                                    style={
+                                      Object {
+                                        "color": "white",
+                                        "display": "table",
+                                        "height": "100%",
+                                        "textAlign": "center",
+                                        "width": "100%",
+                                        "zIndex": 20,
+                                      }
+                                    }
+                                  >
+                                    <div
+                                      className="Loader__message"
+                                      style={
+                                        Object {
+                                          "display": "table-cell",
+                                          "position": "absolute",
+                                          "right": "50%",
+                                          "top": "20%",
+                                          "verticalAlign": "middle",
+                                        }
+                                      }
+                                    >
+                                      <Loader
+                                        active={true}
+                                        color="#545cd8"
+                                        type="line-scale"
+                                      >
+                                        <div
+                                          className="loader loader-undefined loader-active"
+                                        >
+                                          <div
+                                            className="loader-inner line-scale"
+                                          >
+                                            <div
+                                              key="0"
+                                              style={
+                                                Object {
+                                                  "backgroundColor": "#545cd8",
+                                                }
+                                              }
+                                            />
+                                            <div
+                                              key="1"
+                                              style={
+                                                Object {
+                                                  "backgroundColor": "#545cd8",
+                                                }
+                                              }
+                                            />
+                                            <div
+                                              key="2"
+                                              style={
+                                                Object {
+                                                  "backgroundColor": "#545cd8",
+                                                }
+                                              }
+                                            />
+                                            <div
+                                              key="3"
+                                              style={
+                                                Object {
+                                                  "backgroundColor": "#545cd8",
+                                                }
+                                              }
+                                            />
+                                            <div
+                                              key="4"
+                                              style={
+                                                Object {
+                                                  "backgroundColor": "#545cd8",
+                                                }
+                                              }
+                                            />
+                                          </div>
+                                        </div>
+                                      </Loader>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </Loader>
+                          </ContentLoading>
+                        </DataLoading>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Transition>
+            </Fade>
+            <Fade
+              appear={true}
+              baseClass="fade"
+              baseClassActive="show"
+              className="modal-backdrop"
+              enter={true}
+              exit={true}
+              in={true}
+              mountOnEnter={true}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              tag="div"
+              timeout={150}
+              unmountOnExit={false}
+            >
+              <Transition
+                appear={true}
+                enter={true}
+                exit={true}
+                in={true}
+                mountOnEnter={true}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={150}
+                unmountOnExit={false}
+              >
+                <div
+                  className="modal-backdrop fade"
+                />
+              </Transition>
+            </Fade>
+          </div>
+        </Portal>
+      </Portal>
+    </Modal>
+  </Popup>
+</AttachmentForm>
+`;

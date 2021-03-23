@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tiles /> renders correct snapshot with array selected value 1`] = `
+<div
+  className="grid-menu grid-menu-4col"
+>
+  <Row
+    className="no-gutters"
+    data-t1="tiles"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className="bg-white border-success"
+      key="test_1"
+      md="3"
+      sm="6"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <div
+        className="widget-chart widget-chart-hover text-success"
+        data-t1="test_1"
+        onClick={null}
+        role="presentation"
+      >
+        <div
+          className="icon-wrapper rounded-circle"
+        >
+          <div
+            className="icon-wrapper-bg bg-primary"
+          />
+          <i
+            className="icon_1"
+          />
+        </div>
+        <div
+          className="widget-numbers-sm"
+        >
+          Test 1
+        </div>
+      </div>
+    </Col>
+    <Col
+      className="bg-white"
+      key="test_2"
+      md="3"
+      sm="6"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <div
+        className="widget-chart widget-chart-hover text-primary"
+        data-t1="test_2"
+        onClick={null}
+        role="presentation"
+      >
+        <div
+          className="icon-wrapper rounded-circle"
+        >
+          <div
+            className="icon-wrapper-bg bg-primary"
+          />
+          <i
+            className="icon_2"
+          />
+        </div>
+        <div
+          className="widget-numbers-sm"
+        >
+          Test 2
+        </div>
+      </div>
+    </Col>
+  </Row>
+</div>
+`;
+
+exports[`<Tiles /> renders correct snapshot with simple selected value 1`] = `
+<div
+  className="grid-menu grid-menu-4col"
+>
+  <Row
+    className="no-gutters"
+    data-t1="tiles"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className="bg-white border-success"
+      key="test_1"
+      md="3"
+      sm="6"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <div
+        className="widget-chart widget-chart-hover text-success"
+        data-t1="test_1"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          className="icon-wrapper rounded-circle"
+        >
+          <div
+            className="icon-wrapper-bg bg-primary"
+          />
+          <i
+            className="icon_1"
+          />
+        </div>
+        <div
+          className="widget-numbers-sm"
+        >
+          Test 1
+        </div>
+      </div>
+    </Col>
+    <Col
+      className="bg-white"
+      key="test_2"
+      md="3"
+      sm="6"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <div
+        className="widget-chart widget-chart-hover text-primary"
+        data-t1="test_2"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          className="icon-wrapper rounded-circle"
+        >
+          <div
+            className="icon-wrapper-bg bg-primary"
+          />
+          <i
+            className="icon_2"
+          />
+        </div>
+        <div
+          className="widget-numbers-sm"
+        >
+          Test 2
+        </div>
+      </div>
+    </Col>
+  </Row>
+</div>
+`;

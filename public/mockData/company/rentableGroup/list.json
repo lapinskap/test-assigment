@@ -1,0 +1,22 @@
+[
+  {
+    "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+    "frontendName": "Grupa I (do 2500 PLN)",
+    "employeeGroups": ["a43275e4-eeb2-11ea-adc1-0242ac1200021"]
+  },
+  {
+    "id": "a43275e4-eeb2-11ea-adc1-0242ac1200022",
+    "frontendName": "Grupa II (od 2500 PLN do 4000 PLN)",
+    "employeeGroups": ["a43275e4-eeb2-11ea-adc1-0242ac1200021", "a43275e4-eeb2-11ea-adc1-0242ac1200022"]
+  },
+  {
+    "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+    "frontendName": "Grupa III (od 40000 PLN do 5500 PLN)",
+    "employeeGroups": ["a43275e4-eeb2-11ea-adc1-0242ac1200023"]
+  },
+  {
+    "id": "a43275e4-eeb2-11ea-adc1-0242ac1200024",
+    "frontendName": "Grupa IV (powyżej 5500 PLN)",
+    "employeeGroups": []
+  }
+]

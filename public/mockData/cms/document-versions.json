@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "updatedAt": "10-03-2020",
+    "version": "Wersja 669",
+    "pending": true,
+    "published": false
+  },
+  {
+    "id": 2,
+    "updatedAt": "07-19-2020",
+    "version": "Wersja 668",
+    "pending": false,
+    "published": true
+  },
+  {
+    "id": 3,
+    "updatedAt": "03-20-2019",
+    "version": "Wersja 667",
+    "pending": false,
+    "published": false
+  },
+  {
+    "id": 4,
+    "updatedAt": "03-20-2019",
+    "version": "Wersja 666",
+    "pending": false,
+    "published": false
+  },
+  {
+    "id": 5,
+    "updatedAt": "03-20-2019",
+    "version": "Wersja 665",
+    "pending": false,
+    "published": false
+  },
+  {
+    "id": 6,
+    "updatedAt": "07-19-2020",
+    "version": "Wersja 664",
+    "pending": false,
+    "published": false
+  },
+  {
+    "id": 7,
+    "updatedAt": "03-20-2019",
+    "version": "Wersja 663",
+    "pending": false,
+    "published": false
+  },
+  {
+    "id": 8,
+    "updatedAt": "03-20-2019",
+    "version": "Wersja 662",
+    "pending": false,
+    "published": false
+  },
+  {
+    "id": 9,
+    "updatedAt": "03-20-2019",
+    "version": "Wersja 661",
+    "pending": false,
+    "published": false
+  },
+  {
+    "id": 10,
+    "updatedAt": "03-20-2019",
+    "version": "Wersja 660",
+    "pending": false,
+    "published": false
+  }
+]

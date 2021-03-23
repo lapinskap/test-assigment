@@ -1,0 +1,2188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CompanyList /> Should render correct in default state 1`] = `
+<div>
+  <div
+    className="app-page-title app-page-title-simple"
+  >
+    <div
+      className="page-title-wrapper"
+    >
+      <div
+        className="page-title-heading"
+      >
+        <div>
+          <div
+            className="page-title-head center-elem"
+          >
+            <span
+              className="d-inline-block pr-2"
+            >
+              <i
+                className=""
+              />
+            </span>
+            <span
+              className="d-inline-block"
+              data-t1="pageTitle"
+            >
+              Lista firm
+            </span>
+          </div>
+          <div
+            className="page-title-subheading opacity-10"
+          >
+            <nav
+              aria-label="breadcrumb"
+              className=""
+              data-t1="breadcrumbs"
+            >
+              <ol
+                className="breadcrumb"
+              >
+                <li
+                  className="breadcrumb-item"
+                  data-t1="breadcrumbsItem"
+                >
+                  <a
+                    href="#/"
+                    onClick={[Function]}
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="svg-inline--fa fa-home fa-w-18 "
+                      data-icon="home"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style={Object {}}
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+                        fill="currentColor"
+                        style={Object {}}
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li
+                  className="breadcrumb-item"
+                  data-t1="breadcrumbsItem"
+                >
+                  <a
+                    href="#/company"
+                    onClick={[Function]}
+                  >
+                    Firma
+                  </a>
+                </li>
+                <li
+                  aria-current="page"
+                  className="active breadcrumb-item"
+                  data-t1="breadcrumbsActiveItem"
+                >
+                  Lista firm
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="main-card mb-3 card"
+      >
+        <form
+          className=""
+          data-t1="companiesListing"
+          onSubmit={[Function]}
+        >
+          <div
+            className="card-body"
+          >
+            <div
+              className="listing-btn-container m-2 text-right"
+            >
+              <div
+                className="mr-2 btn-group btn-group-lg"
+                onKeyDown={[Function]}
+              >
+                <div
+                  className="disabled-area-wrapper"
+                  title="Nie masz uprawnień (company:company:read)"
+                >
+                  <div
+                    className="not-allowed disabled-area"
+                  />
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    aria-label={null}
+                    className="dropdown-toggle btn btn-secondary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span
+                      data-t1="export"
+                    >
+                      Eksportuj
+                    </span>
+                  </button>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="dropdown-menu"
+                  role="menu"
+                  tabIndex="-1"
+                >
+                  <button
+                    className="dropdown-item"
+                    disabled={false}
+                    onClick={[Function]}
+                    role="menuitem"
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <span
+                      data-t1="export-page"
+                    >
+                      Eksportuj obecną stronę
+                    </span>
+                  </button>
+                  <button
+                    className="disabled dropdown-item"
+                    disabled={true}
+                    onClick={[Function]}
+                    tabIndex="-1"
+                    type="button"
+                  >
+                    <span
+                      data-t1="export-filtered"
+                    >
+                      Eksportuj wyfiltrowane
+                    </span>
+                  </button>
+                  <button
+                    className="dropdown-item"
+                    onClick={[Function]}
+                    role="menuitem"
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <span
+                      data-t1="export-all"
+                    >
+                      Eksportuj wszystko
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <a
+                aria-label={null}
+                className="mr-2 not-allowed btn btn-primary btn-lg disabled"
+                data-t1="add"
+                disabled={true}
+                href="#/company/list/create"
+                onClick={[Function]}
+                title="Nie masz uprawnień (company:company:write)"
+                type="button"
+              >
+                + Dodaj firmę
+              </a>
+            </div>
+            <div
+              className="text-right"
+            >
+              <button
+                aria-label={null}
+                className="btn-wide mb-2 mr-2 btn-icon btn-icon-right btn-pill btn btn-outline-success"
+                data-t1="gridFiltersApply"
+                onClick={[Function]}
+                type="submit"
+              >
+                Zastosuj filtry
+                <i
+                  className="pe-7s-filter btn-icon-wrapper"
+                >
+                   
+                </i>
+              </button>
+              <button
+                aria-label={null}
+                className="btn-wide mb-2 mr-2 btn-icon btn-icon-right btn-dashed btn-pill btn btn-outline-danger"
+                data-t1="gridFiltersClear"
+                onClick={[Function]}
+                type="button"
+              >
+                Resetuj filtry
+                <i
+                  className="pe-7s-close btn-icon-wrapper"
+                >
+                   
+                </i>
+              </button>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="mb-2 col-sm-2"
+              >
+                <label
+                  className=""
+                >
+                  Jednostka organizacyjna
+                  :
+                </label>
+                 
+                <input
+                  className="form-control"
+                  data-t1="gridFilter"
+                  data-t2="organization_unit"
+                  id="organization_unit"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              className="text-right"
+            >
+              Ilość rekordów
+              :
+              10
+            </div>
+            <div
+              className="ReactTable -striped -highlight"
+              style={Object {}}
+            >
+              <div
+                className="rt-table"
+                role="grid"
+              >
+                <div
+                  className="rt-thead -header"
+                  style={
+                    Object {
+                      "minWidth": "700px",
+                    }
+                  }
+                >
+                  <div
+                    className="rt-tr"
+                    role="row"
+                  >
+                    <div
+                      className="rt-th rt-resizable-header -cursor-pointer"
+                      data-t1="gridSort"
+                      data-t2="shortName"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="rt-resizable-header-content"
+                      >
+                        Skrócona nazwa
+                      </div>
+                      <div
+                        className="rt-resizer"
+                        onMouseDown={[Function]}
+                        onTouchStart={[Function]}
+                      />
+                    </div>
+                    <div
+                      className="rt-th rt-resizable-header -cursor-pointer"
+                      data-t1="gridSort"
+                      data-t2="fullName"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="rt-resizable-header-content"
+                      >
+                        Pełna nazwa
+                      </div>
+                      <div
+                        className="rt-resizer"
+                        onMouseDown={[Function]}
+                        onTouchStart={[Function]}
+                      />
+                    </div>
+                    <div
+                      className="rt-th rt-resizable-header -cursor-pointer"
+                      data-t1="gridSort"
+                      data-t2="street"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="rt-resizable-header-content"
+                      >
+                        Ulica
+                      </div>
+                      <div
+                        className="rt-resizer"
+                        onMouseDown={[Function]}
+                        onTouchStart={[Function]}
+                      />
+                    </div>
+                    <div
+                      className="rt-th rt-resizable-header -cursor-pointer"
+                      data-t1="gridSort"
+                      data-t2="city"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="rt-resizable-header-content"
+                      >
+                        Miasto
+                      </div>
+                      <div
+                        className="rt-resizer"
+                        onMouseDown={[Function]}
+                        onTouchStart={[Function]}
+                      />
+                    </div>
+                    <div
+                      className="rt-th rt-resizable-header -cursor-pointer"
+                      data-t1="gridSort"
+                      data-t2="employeeNumber"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": "200px",
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="rt-resizable-header-content"
+                      >
+                        Liczba pracowników
+                      </div>
+                      <div
+                        className="rt-resizer"
+                        onMouseDown={[Function]}
+                        onTouchStart={[Function]}
+                      />
+                    </div>
+                    <div
+                      className="rt-th rt-resizable-header -cursor-pointer"
+                      data-t1="gridSort"
+                      data-t2="active"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="rt-resizable-header-content"
+                      >
+                        Status
+                      </div>
+                      <div
+                        className="rt-resizer"
+                        onMouseDown={[Function]}
+                        onTouchStart={[Function]}
+                      />
+                    </div>
+                    <div
+                      className="rt-th rt-resizable-header"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": "150px",
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="rt-resizable-header-content"
+                      >
+                        Akcja
+                      </div>
+                      <div
+                        className="rt-resizer"
+                        onMouseDown={[Function]}
+                        onTouchStart={[Function]}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="rt-thead -filters"
+                  style={
+                    Object {
+                      "minWidth": "700px",
+                    }
+                  }
+                >
+                  <div
+                    className="rt-tr"
+                    role="row"
+                  >
+                    <div
+                      className="rt-th"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <input
+                        data-t1="gridFilter"
+                        data-t2="shortName"
+                        onChange={[Function]}
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      className="rt-th"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <input
+                        data-t1="gridFilter"
+                        data-t2="fullName"
+                        onChange={[Function]}
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      className="rt-th"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <input
+                        data-t1="gridFilter"
+                        data-t2="street"
+                        onChange={[Function]}
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      className="rt-th"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <input
+                        data-t1="gridFilter"
+                        data-t2="city"
+                        onChange={[Function]}
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      className="rt-th"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": "200px",
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    />
+                    <div
+                      className="rt-th"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <select
+                        className="form-control"
+                        data-t1="gridFilter"
+                        data-t2="active"
+                        onChange={[Function]}
+                        value={0}
+                      >
+                        <option
+                          value=""
+                        >
+                          ---
+                        </option>
+                        <option
+                          value={true}
+                        >
+                          Aktywna
+                        </option>
+                        <option
+                          value={false}
+                        >
+                          Nieaktywna
+                        </option>
+                      </select>
+                    </div>
+                    <div
+                      className="rt-th"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": "150px",
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="rt-tbody"
+                  style={
+                    Object {
+                      "minWidth": "700px",
+                    }
+                  }
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -odd"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200021"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        10clouds
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        10clouds
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Warszawska
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Wrocław
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        76
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200021"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -even"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200022"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        PKO BP
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        PKO BP
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Warszawska
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Wrocław
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        12
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200022"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -odd"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200023"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Janex
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Janex
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Kościuszki
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Wrocław
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        43
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200023"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -even"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200024"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        3m
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        3m
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Niepodległości
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Łódź
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        76
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200024"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -odd"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200025"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        AECOM
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        AECOM
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Warszawska
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Wrocław
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        87
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200025"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -even"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200026"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Allegro
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Allegro
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Warszawska
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Wrocław
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        44
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200026"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -odd"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200027"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Alior bank
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Alior bank
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Poznańska
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Wrocław
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        33
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200027"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -even"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200028"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Castorama
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Castorama
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Warszawska
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Wrocław
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        76
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200028"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -odd"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200029"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Polfarmex
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Polfarmex
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Warszawska
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Wrocław
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        44
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac1200029"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      className="rt-tr -even"
+                      data-t1="gridRow"
+                      data-t2="a43275e4-eeb2-11ea-adc1-0242ac12000210"
+                      role="row"
+                    >
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="shortName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Cemex
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="fullName"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Cemex
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="street"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Długa
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="city"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        Białystok
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="employeeNumber"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "200px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        7
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="active"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div />
+                      </div>
+                      <div
+                        className="rt-td"
+                        data-t1="gridCell"
+                        data-t2="action"
+                        onClick={[Function]}
+                        role="gridcell"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "150px",
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="d-block w-100 text-center"
+                        >
+                          <a
+                            aria-label={null}
+                            className="btn btn-link"
+                            data-t1="rowAction-edit"
+                            data-t2="a43275e4-eeb2-11ea-adc1-0242ac12000210"
+                            disabled={false}
+                            href="#/company/edit/undefined"
+                            onClick={[Function]}
+                            title="Edytuj"
+                            type="button"
+                          >
+                            Edytuj
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="-loading"
+              >
+                <div
+                  className="-loading-inner"
+                >
+                  Pobieranie danych...
+                </div>
+              </div>
+            </div>
+            <div
+              className="ReactTable"
+            >
+              <div
+                className="pagination"
+              >
+                <div
+                  className="pagination-bottom w-100"
+                >
+                  <div
+                    className="-pagination"
+                  >
+                    <div
+                      className="-previous"
+                    >
+                      <button
+                        className="-btn"
+                        data-t1="gridPreviousPage"
+                        disabled={true}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Poprzednia
+                      </button>
+                    </div>
+                    <div
+                      className="-center"
+                    >
+                      <span
+                        className="-pageInfo"
+                      >
+                        Strona
+                        <div
+                          className="-pageJump"
+                        >
+                          <input
+                            aria-label="jump to page"
+                            data-t1="gridPage"
+                            onChange={[Function]}
+                            type="text"
+                            value={1}
+                          />
+                        </div>
+                        z
+                        <span
+                          className="-totalPages"
+                        >
+                          1
+                        </span>
+                      </span>
+                      <span
+                        className="select-wrap -pageSizeOptions"
+                      >
+                        <select
+                          aria-label="rows per page"
+                          data-t1="gridPageSize"
+                          onChange={[Function]}
+                          value={20}
+                        >
+                          <option
+                            value={20}
+                          >
+                            20
+                             
+                            wpisów
+                          </option>
+                          <option
+                            value={40}
+                          >
+                            40
+                             
+                            wpisów
+                          </option>
+                          <option
+                            value={50}
+                          >
+                            50
+                             
+                            wpisów
+                          </option>
+                          <option
+                            value={80}
+                          >
+                            80
+                             
+                            wpisów
+                          </option>
+                          <option
+                            value={100}
+                          >
+                            100
+                             
+                            wpisów
+                          </option>
+                        </select>
+                      </span>
+                    </div>
+                    <div
+                      className="-next"
+                    >
+                      <button
+                        className="-btn"
+                        data-t1="gridNextPage"
+                        disabled={true}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Następna
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

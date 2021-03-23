@@ -1,0 +1,196 @@
+[
+  {
+    "subscriptionId": "1",
+    "supplierId": "1",
+    "whoPays": "pracodawca",
+    "name": "Abonament Multisport",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+        "isActive": true
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200022",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": true
+      }
+    ],
+    "checkbox": false
+  },
+  {
+    "subscriptionId": "2",
+    "supplierId": "2",
+    "whoPays": "pracownik",
+    "name": "Abonament Multisport",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200022",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": false
+      }
+    ],
+    "checkbox": false
+  },
+  {
+    "subscriptionId": "3",
+    "supplierId": "3",
+    "whoPays": "pracodawca",
+    "name": "Abonament Produkt",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+        "isActive": true
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200022",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": true
+      }
+    ],
+    "checkbox": false
+  },
+  {
+    "subscriptionId": "4",
+    "supplierId": "2",
+    "whoPays": "pracodawca",
+    "name": "Abonament MyBenefit",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200022",
+        "isActive": true
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": true
+      }
+    ],
+    "checkbox": false
+  },
+  {
+    "subscriptionId": "5",
+    "supplierId": "1",
+    "whoPays": "pracodawca",
+    "name": "Abonament Multisport",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200022",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": false
+      }
+    ],
+    "checkbox": false
+  },
+  {
+    "subscriptionId": "6",
+    "supplierId": "4",
+    "whoPays": "pracownik",
+    "name": "Abonament Multisport",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+        "isActive": true
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200022",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": true
+      }
+    ],
+    "checkbox": false
+  },
+  {
+    "subscriptionId": "7",
+    "supplierId": "5",
+    "whoPays": "pracodawca",
+    "name": "Abonament Helios",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200022",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": true
+      }
+    ],
+    "checkbox": false
+  },
+  {
+    "subscriptionId": "8",
+    "supplierId": "2",
+    "whoPays": "pracodawca",
+    "name": "Abonament Multisport",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": false
+      }
+    ],
+    "checkbox": false
+  },
+  {
+    "subscriptionId": "9",
+    "supplierId": "1",
+    "whoPays": "pracodawca",
+    "name": "Abonament Multisport",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": false
+      },
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": false
+      }
+    ],
+    "checkbox": false
+  },
+  {
+    "subscriptionId": "10",
+    "supplierId": "4",
+    "whoPays": "pracodawca",
+    "name": "Abonament Helios",
+    "employeeGroupsConfig": [
+      {
+        "id": "a43275e4-eeb2-11ea-adc1-0242ac1200023",
+        "isActive": false
+      }
+    ],
+    "checkbox": false
+  }
+]

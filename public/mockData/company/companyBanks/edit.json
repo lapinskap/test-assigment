@@ -1,0 +1,20 @@
+{
+  "payrollYearFrom": "3",
+  "payrollNumber": "222",
+  "listingData": {
+    "banks": [
+      {
+        "id": 1,
+        "name": "Bank premierowy",
+        "evidence_type": "Z góry"
+      },
+      {
+        "id": 2,
+        "name": "Inny bank",
+        "evidence_type": "Z dołu"
+      }
+    ],
+    "switch": true
+  }
+
+}

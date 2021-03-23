@@ -1,0 +1,30 @@
+  {
+	"id": 1,
+	"code": "TEST_DICT",
+	"name": "Nowy test",
+	"type": "description",
+	"itemsJson": [
+		{
+			"key": "Nowy klucz",
+			"value": "Wartość xxx"
+		},
+		{
+			"key": "nowy nowy",
+			"value": "abcd"
+		},
+		{
+			"key": "test",
+			"value": "123123"
+		},
+		{
+			"key": "test",
+			"value": "1111"
+		},
+		{
+			"key": "sad",
+			"value": "123"
+		}
+	],
+	"createdAt": "2020-10-02T07:53:32+00:00",
+	"updatedAt": "2020-10-02T14:15:54+00:00"
+}

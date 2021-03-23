@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Report /> renders correctly with Company depended 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="sticky-outer-wrapper"
+    style={Object {}}
+  >
+    <div
+      className="sticky-inner-wrapper"
+      style={
+        Object {
+          "position": "relative",
+          "top": "0px",
+          "zIndex": undefined,
+        }
+      }
+    >
+      <div
+        className="card-header-lg text-transform-none card-header"
+      >
+        <div
+          className="card-header-title font-size-lg font-weight-normal"
+        >
+          Testowy Raport
+        </div>
+        <div
+          className="btn-actions-pane-right"
+        >
+          <button
+            aria-label={null}
+            className="mr-2 btn btn-danger btn-lg"
+            data-t1=""
+            disabled={false}
+            href={null}
+            onClick={[Function]}
+            title="Wyczyść"
+            type="button"
+          >
+            Wyczyść
+          </button>
+          <button
+            aria-label={null}
+            className="mr-2 btn btn-primary btn-lg"
+            data-t1=""
+            disabled={false}
+            href={null}
+            onClick={[Function]}
+            title="Generuj"
+            type="button"
+          >
+            Generuj
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-body"
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        className=""
+        data-t1="nullLabel"
+        htmlFor={null}
+      >
+        Firma
+      </label>
+      <div
+        className="input-group"
+      >
+        <select
+          className="form-control"
+          data-t1={null}
+          id={null}
+          name={null}
+          onChange={[Function]}
+          value={0}
+        >
+          <option
+            value=""
+          >
+            ---Nie wybrano ---
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Report /> renders correctly with props 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="sticky-outer-wrapper"
+    style={Object {}}
+  >
+    <div
+      className="sticky-inner-wrapper"
+      style={
+        Object {
+          "position": "relative",
+          "top": "0px",
+          "zIndex": undefined,
+        }
+      }
+    >
+      <div
+        className="card-header-lg text-transform-none card-header"
+      >
+        <div
+          className="card-header-title font-size-lg font-weight-normal"
+        >
+          Testowy Raport
+        </div>
+        <div
+          className="btn-actions-pane-right"
+        >
+          <button
+            aria-label={null}
+            className="mr-2 btn btn-danger btn-lg"
+            data-t1=""
+            disabled={false}
+            href={null}
+            onClick={[Function]}
+            title="Wyczyść"
+            type="button"
+          >
+            Wyczyść
+          </button>
+          <button
+            aria-label={null}
+            className="mr-2 btn btn-primary btn-lg"
+            data-t1=""
+            disabled={false}
+            href={null}
+            onClick={[Function]}
+            title="Generuj"
+            type="button"
+          >
+            Generuj
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-body"
+  >
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="row"
+      />
+      <button
+        className="d-none"
+        type="submit"
+      >
+        submit
+      </button>
+    </form>
+  </div>
+</div>
+`;

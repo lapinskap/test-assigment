@@ -1,0 +1,14 @@
+{
+  "title": "Testowa zgoda",
+  "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+  "header": "Twoja testowa zgoda",
+  "active": "true",
+  "localization": 1,
+  "company": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+  "rentable_group": ["a43275e4-eeb2-11ea-adc1-0242ac1200021","a43275e4-eeb2-11ea-adc1-0242ac1200022"],
+  "employee_group": ["a43275e4-eeb2-11ea-adc1-0242ac1200023","a43275e4-eeb2-11ea-adc1-0242ac1200024"],
+  "organization_unit": [],
+  "required": "true",
+  "content": "tresc zgody <% g4n-ard-test | test %>",
+  "description": "opis zgody <% g4n-ard-test | test %>"
+}

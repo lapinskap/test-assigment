@@ -1,0 +1,57 @@
+{
+  "@context": "string",
+  "@id": "string",
+  "@type": "string",
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "guardianId": "c079814d-4a67-4bb3-9301-980a322157db",
+  "bookkeeping": "Informacje księgowe",
+  "status": "new",
+  "name": "Obiekt 1",
+  "anixeId": "code123",
+  "category": "kluczZeSłownika2",
+  "travelPassAllowed": true,
+  "travelPassId": "travelPass123",
+  "hotelCategory": 1,
+  "destinationCode": "code123",
+  "descLanguage": "pl",
+  "detectedDescLanguage": "en",
+  "phone": "+48 666 666 666",
+  "phone2": "+48 777 777 777",
+  "website": "www.google.com",
+  "email": "objekt@mail.com",
+  "longitude": "27.683528",
+  "latitude": "22.053289",
+  "countryCode": "kluczZeSłownika1",
+  "street": "ul.Jakakolwiek",
+  "city": "Poznań",
+  "postalCode": "12-345",
+  "emailForNotifications": "adres@mail.com",
+  "phoneForNotifications": "+48 123 456 789",
+  "useAnixeGallery": true,
+  "gallery": [
+    {
+      "name": "Main",
+      "alt": "Picture",
+      "url": "http://image.com/pic1.jpg",
+      "position": 1,
+      "additional": []
+    }
+  ],
+  "anixeData": {"en":{"name":"Copernicus Hotel","hotelCategory":"4.0","shortDescription":"Copernicus Torun is situated on the Philadelphia Boulevard in the very heart of Torun. The Old Town and the Vistula Boulevard can be found within walking distance from the hotel. The location of the ho...","description":"<h3>Facilities<\/h3><p>Air conditioning in Rooms, Hairdryer, Tea\/Coffee Making Facilities, Swimming Pool, Minibar, Telephone, Safe in room (Complimentary), Bars - 1, Cafe, Elevator, TV Lounge, Airport - less than 50km, Beach - less than 1600 metres, Number of Floors - 5, Disabled Access, Private balcony, Television Cable\/Satellite, Spa Facilities (Complimentary), Credit Cards - Amex\/Visa\/Diners\/Mastercard, Latest check-out - 12.00, Earliest check-in 16.00, No Smoking in the hotel, Gym\/Fitness Facility (Complimentary), No Smoking in Rooms, Bowling Alley, Wi-Fi access in rooms (Complimentary), Tennis Court, Internet access (complimentary), Air-conditioned, Cots, TV, Business Services, Ironing facilities, Laundry facilities, 24 hour check-in<\/p>\n<h3>General<\/h3><p>Copernicus Torun is situated on the Philadelphia Boulevard in the very heart of Torun. The Old Town and the Vistula Boulevard can be found within walking distance from the hotel. The location of the hotel is the perfect starting point to explore the city and experience the nature. Guestrooms are furnished and equipped with a comfortable bed. Room facilities include air conditioning, hairdryer, minibar, safe, coffee\/tea maker, telephone, television and Wi-Fi internet access. At the Salt restaurant guests can enjoy a la carte dishes and in the second part of the hotel there is a terrace with a view over the Vistula River where guests can dine in the summer season.<\/p>\n","countryCode":"PL","city":"Torun, Kuyavian-Pomeranian","postalCode":"87-100","street":"Bulwar Filadelfijski 11","phone":"+48 56 611 57 00","phone2":"","website":"http:\/\/www.copernicustorunhotel.com\/","email":"info@copernicustorun.com","gallery":[{"name":"Exterior View","alt":"","url":"http:\/\/images.jactravel.co.uk\/68370_1_1.jpg","position":1,"additional":[]},{"name":"Guest Room","alt":"","url":"http:\/\/images.jactravel.co.uk\/68370_1_6.jpg","position":2,"additional":[]}]},"de":{"name":"Copernicus Hotel","hotelCategory":"4.0","shortDescription":"Copernicus Torun is situated on the Philadelphia Boulevard in the very heart of Torun. The Old Town and the Vistula Boulevard can be found within walking distance from the hotel. The location of the ho...","description":"<h3>General<\/h3><p>In Torun gelegen, ist dieses bezaubernde Hotel optimal f\u00fcr Familien. Nur 350 m vom Stadtzentrum entfernt, bietet die Einrichtung bequemen Zugang zu allen Sehensw\u00fcrdigkeiten dieses Reiseziels. Reisende k\u00f6nnen den n\u00e4chsten Golfplatz 6. 3 km vom Anwesen entfernt vorfinden. Die Einrichtung befindet sich 30. 0 km von den Pisten entfernt. Die Anbindungen an die \u00f6ffentlichen Verkehrsmittel sind 1. 0 km entfernt. Das Hotel ist 1000 m vom Hafen entfernt. Die Einrichtung umfasst 149 G\u00e4stezimmer. Copernicus Torun Hotel wurde 2012 gebaut. Neben den erw\u00e4hnten Dienstleistungen und Annehmlichkeiten k\u00f6nnen die Besucher auch die Kabel- und kabellose Internetverbindung in der Einrichtung nutzen. Die Kunden k\u00f6nnen die Rezeption tags\u00fcber jederzeit kontaktieren. Die kleinen G\u00e4ste werden in Babybettchen untergebracht (auf Anfrage erh\u00e4ltlich). Alle Toiletten im Copernicus Torun Hotel sind behindertengerecht. Haustiere sind im Copernicus Torun Hotel erlaubt. Copernicus Torun Hotel bietet einen Parkplatz und eine Tiefgarage. Die Besucher k\u00f6nnen aus erster Hand die verschiedenen Restaurants des Copernicus Torun Hotel probieren. Dank der Gesundheits- und Wellness-Services ist diese Unterkunft ideal, um sich eine Auszeit vom hektischen Alltag zu g\u00f6nnen. F\u00fcr zus\u00e4tzlichen Komfort der Gesch\u00e4ftsreisenden stehen verschiedene Konferenzeinrichtungen zur Verf\u00fcgung. Diejenigen, die in dieser Einrichtung wohnen, werden deren breites Unterhaltungs- und Freizeitangebot wahrlich zu sch\u00e4tzen wissen. Einige dieser Dienstleistungen im Copernicus Torun Hotel sind eventuell geb\u00fchrenpflichtig.<\/p>\n<h3>Lage<\/h3><p>Baujahr 2012, 149, Anzahl der Stockwerke (Hauptgeb\u00e4ude) 4, Anzahl der Stockwerke (Nebengeb\u00e4ude) 4, Einzelzimmer 12, Doppelzimmer 111, Junior-Suiten 18, Apartments 8<\/p>\n<h3>Hotelkategorie<\/h3><p>Hotel<\/p>\n<h3>Zahlungsweisen<\/h3><p>American Express, Diners Club, MasterCard, Visa, Maestro, Visa electron<\/p>\n<h3>Entfernungen (in Metern)<\/h3><p>Stadtzentrum 350m, Busbahnhof\/Bahnhof 1000m, N\u00e4chste Bushaltestelle\/U-Bahnstation 50000m, Hafen 1000m, Strand 25000m, Golfplatz 6300m, Skipisten 30000m<\/p>\n<h3>Zimmerausstattung (standard Zimmer)<\/h3><p>Zimmergr\u00f6\u00dfe (m\u00b2) 25, Anzahl der Schlafzimmer 1, Badezimmer, Barrierefreies Badezimmer, Dusche, Haartrockner, Bademantel, WLAN-Internetzugang, Internetzugang, Fernseher, Minibar, Tee-\/Kaffeezubereiter, Teppichboden, Individuell regulierbare Klimaanlage, Zentralheizung, Individuell regulierbare Heizung, Safe, F\u00fcr Rollst\u00fchle geeignet, Zimmerreinigung, Extrabetten auf Bestellung, Wiege auf Bestellung, Fitnessraum, Billard, Hallenbad 1, Garten, Bibliothek 1<\/p>\n<h3>Anlage<\/h3><p>Haustiere -5 kg erlaubt, Haustiere auch +5 kg erlaubt, F\u00fcr Rollst\u00fchle geeignet, Parkplatz, Garage 45 PLN, 24h-Rezeption, Mobilfunkempfang, Kabelgebundenes Internet, WLAN-Internetzugang, Lokale und internationale Anrufe, Autovermietung, \u00dcberwachter Parkplatz, Zimmerservice, W\u00e4scheservice, Fahrradverleih, Mehrsprachiges Personal, 24h-Sicherheitsdienst, Klimaanlage in \u00f6ffentlichen Bereichen, Rauchmelder, Safe, Garderobe, Aufzug, Garten, Terrasse, Unterstellm\u00f6glichkeit f\u00fcr Fahrr\u00e4der, Sonnenterrasse, Fitnessbereich, Presse, Gep\u00e4ckaufbewahrung, Bibliothek<\/p>\n<h3>Gastronomie<\/h3><p>Cafeteria, Bar, Restaurant, Nichtraucherzone, Raucherzone, Kinderhochst\u00fchle, Bankettsaal, Klimaanlage im Restaurant, Fr\u00fchst\u00fccksraum<\/p>\n<h3>Unternehmen<\/h3><p>Konferenzr\u00e4ume, Versammlungsraum, Projektor, Drucker, Fotokopierer, Businesscenter, Fax<\/p>\n<h3>Unterhaltung<\/h3><p>Beheizbares Hallenbad 1, Kinderbecken 1, Sonnenliegen, Spielbereich, TV-Raum, Spielezimmer, Disco \/ Club<\/p>\n<h3>Wellness<\/h3><p>Sauna, Dampfbad, Badewanne mit Hydromassage, Massagen, Spa-Anwendungen, Sch\u00f6nheitssalon, Spa-Wellness-Center 10:00:00 21:00:00<\/p>\n<h3>Mahlzeit<\/h3><p>Fr\u00fchst\u00fcck 07:00:00 10:00:00, Fr\u00fchst\u00fccksbuffet, Warmes Fr\u00fchst\u00fcck, Abendessen \u00e0 la carte, Di\u00e4tk\u00fcche, Glutenfreie Mahlzeiten , Vegetarische Gerichte<\/p>\n<h3>Sporte<\/h3><p>Fitness, Billard, Bowling, Tennis<\/p>\n<h3>Interest Points<\/h3><p>Name: Torun Old Town (UNESCO). Distance: 350. Name: Malbork (UNESCO). Distance: 138000. Name: Biskupin Archeological Site (UNESCO). Distance: 88000. Name: Ciechocinek (SPA). Distance: 22000. Name: Golub Dobrzyn (Mediaval Castle). Distance: 40000.<\/p>\n","countryCode":"PL","city":"Torun, Kuyavian-Pomeranian","postalCode":"87-100","street":"Bulwar Filadelfijski 11","phone":"+48 56 611 57 00","phone2":"","website":"http:\/\/www.copernicustorunhotel.com\/","email":"info@copernicustorun.com","gallery":[{"name":"Exterior View","alt":"","url":"http:\/\/images.jactravel.co.uk\/68376_1_1.jpg","position":1,"additional":[]}]}},
+  "statement": "Treść komunikatu...",
+  "useAnixeShortDescription": true,
+  "shortDescription": "Treść krótkiego opisu...",
+  "anixeShortDescription": "Treść krótkiego opisu...",
+  "useAnixeDescription": true,
+  "customFulfilmentRules": "własne zasady",
+  "useDefaultFulfilmentRules": false,
+  "description": "Treść podstawowego opisu...",
+  "anixeDescription": "Treść podstawowego opisu...",
+  "searchEngineKeywords": "słowa,kluczowe,tutaj",
+  "optionValues": {
+    "attribute1": {
+      "option1": 1,
+      "option2": 0
+    }
+  }
+}

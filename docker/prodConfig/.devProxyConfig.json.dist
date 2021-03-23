@@ -1,0 +1,4 @@
+{
+  "/api": "OMB_MICROSERVICES_URL",
+  "/signin": "SSO_URL",
+}

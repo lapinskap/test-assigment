@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<getEditableCell /> renders correctly with disableDependsOn prop 1`] = `
+<div
+  className="d-block w-100 text-center"
+>
+  <div
+    className="input-group"
+  >
+    <input
+      className="form-control"
+      defaultValue="Random value"
+      disabled={false}
+      onBlur={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`<getEditableCell /> renders correctly with props 1`] = `
+<div
+  className="d-block w-100 text-center"
+>
+  <div
+    className="input-group"
+  >
+    <input
+      className="form-control"
+      defaultValue="Random value"
+      disabled={false}
+      onBlur={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`<getEditableCheckboxesCell /> renders correctly with props 1`] = `
+<div
+  className="text-left"
+>
+  <div
+    className="custom-checkbox custom-control"
+    hidden={false}
+  >
+    <input
+      checked={true}
+      className="custom-control-input"
+      id="option_1_0"
+      onChange={[Function]}
+      type="checkbox"
+      value="option_1"
+    />
+    <label
+      className="custom-control-label"
+      htmlFor="option_1_0"
+    >
+      Opcja 1
+    </label>
+  </div>
+  <div
+    className="custom-checkbox custom-control"
+    hidden={false}
+  >
+    <input
+      checked={true}
+      className="custom-control-input"
+      id="option_2_0"
+      onChange={[Function]}
+      type="checkbox"
+      value="option_2"
+    />
+    <label
+      className="custom-control-label"
+      htmlFor="option_2_0"
+    >
+      Opcja 2
+    </label>
+  </div>
+  <div
+    className="custom-checkbox custom-control"
+    hidden={false}
+  >
+    <input
+      checked={false}
+      className="custom-control-input"
+      id="option_3_0"
+      onChange={[Function]}
+      type="checkbox"
+      value="option_3"
+    />
+    <label
+      className="custom-control-label"
+      htmlFor="option_3_0"
+    >
+      Opcja 3
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<getEditableCheckboxesCell /> renders correctly without data prop 1`] = `
+<div
+  className="text-left"
+>
+  <div
+    className="custom-checkbox custom-control"
+    hidden={false}
+  >
+    <input
+      checked={true}
+      className="custom-control-input"
+      id="option_1_0"
+      onChange={[Function]}
+      type="checkbox"
+      value="option_1"
+    />
+    <label
+      className="custom-control-label"
+      htmlFor="option_1_0"
+    >
+      Opcja 1
+    </label>
+  </div>
+  <div
+    className="custom-checkbox custom-control"
+    hidden={false}
+  >
+    <input
+      checked={true}
+      className="custom-control-input"
+      id="option_2_0"
+      onChange={[Function]}
+      type="checkbox"
+      value="option_2"
+    />
+    <label
+      className="custom-control-label"
+      htmlFor="option_2_0"
+    >
+      Opcja 2
+    </label>
+  </div>
+  <div
+    className="custom-checkbox custom-control"
+    hidden={false}
+  >
+    <input
+      checked={false}
+      className="custom-control-input"
+      id="option_3_0"
+      onChange={[Function]}
+      type="checkbox"
+      value="option_3"
+    />
+    <label
+      className="custom-control-label"
+      htmlFor="option_3_0"
+    >
+      Opcja 3
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<getEditableSelectCell /> renders correctly with props 1`] = `
+<select
+  className="form-control"
+  id="isEnabled"
+  name="isEnabled"
+  onChange={[Function]}
+  value={1}
+>
+  <option
+    value={0}
+  >
+    Nie
+  </option>
+  <option
+    value={1}
+  >
+    Tak
+  </option>
+</select>
+`;
+
+exports[`<getToggleSwitchCell /> renders correctly with props 1`] = `
+<div
+  className="d-block w-100 text-center"
+>
+  <div
+    className="mr-2 mb-2"
+    style={
+      Object {
+        "MozTransition": "opacity 0.25s",
+        "MozUserSelect": "none",
+        "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+        "WebkitTransition": "opacity 0.25s",
+        "WebkitUserSelect": "none",
+        "borderRadius": 10,
+        "display": "inline-block",
+        "msUserSelect": "none",
+        "opacity": 1,
+        "position": "relative",
+        "textAlign": "left",
+        "touchAction": "none",
+        "transition": "opacity 0.25s",
+        "userSelect": "none",
+      }
+    }
+  >
+    <div
+      className="react-switch-bg"
+      onClick={[Function]}
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "MozTransition": "background 0.25s",
+          "WebkitTransition": "background 0.25s",
+          "background": "#888888",
+          "borderRadius": 10,
+          "cursor": "pointer",
+          "height": 20,
+          "margin": 5,
+          "position": "relative",
+          "transition": "background 0.25s",
+          "width": 48,
+        }
+      }
+    />
+    <div
+      className="react-switch-handle"
+      onClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchCancel={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "MozTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+          "WebkitTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+          "background": "#ffffff",
+          "border": 0,
+          "borderRadius": "50%",
+          "boxShadow": "0px 1px 5px rgba(0, 0, 0, 0.6)",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "height": 30,
+          "outline": 0,
+          "position": "absolute",
+          "top": 0,
+          "transform": "translateX(0px)",
+          "transition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+          "width": 30,
+        }
+      }
+    />
+    <input
+      checked={false}
+      disabled={false}
+      id="material-switch"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyUp={[Function]}
+      role="switch"
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0 0 0 0)",
+          "height": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "absolute",
+          "width": 1,
+        }
+      }
+      type="checkbox"
+    />
+  </div>
+</div>
+`;

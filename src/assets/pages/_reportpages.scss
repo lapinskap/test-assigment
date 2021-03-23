@@ -1,0 +1,81 @@
+//Report Pages
+
+.report-detail-margin-bottom{
+    margin-bottom: 20px;
+}
+
+.report-detail-margin-top{
+    margin-top: 15px;
+}
+
+.report-group-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #495057;
+}
+
+.configure-report-title{
+    margin-top: 2px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #495057;
+}
+
+.subscription-info{
+    margin-top :10px;
+}
+
+.subscription-info-annotation{
+    color: #2B7CE8;
+}
+// .asd{
+//     vertical-align: middle;
+// }
+
+.freq-select
+{
+    position: relative;
+    top: -8px;
+}
+
+.week-circle-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-of-week-circle{
+    flex: 1 1 auto;
+    align-self:center;
+
+    margin:8px;
+    width: 40px;
+    max-width: 40px;
+    height: 40px;
+    border: 1px rgba(135, 135, 141, 0.315);
+    border-radius: 50%;
+    background-color: rgba(135, 135, 141, 0.315);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.active-day{
+   
+    border: 1px rgba(52, 52, 247, 0.774) !important;
+    background-color: rgba(52, 52, 247, 0.774) !important;
+    color:rgb(255, 255, 255) !important;
+
+}
+
+.non-valid-parameter{
+    border: solid 1px red;
+    border-radius: 0.25rem;
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "code": "csdas-234234",
+        "label": "Bank punktów",
+        "hasComission": true,
+        "hasFirstPayrollNumber": true,
+        "hasSecondPayrollNumber": false
+    },
+    {
+        "code": "csdas-7674",
+        "label": "Bank punktów",
+        "hasComission": true,
+        "hasFirstPayrollNumber": true,
+        "hasSecondPayrollNumber": false
+    },
+    {
+        "code": "csdas-234234",
+        "label": "Bank ZFŚS",
+        "hasComission": true,
+        "hasFirstPayrollNumber": true,
+        "hasSecondPayrollNumber": true
+    }
+]

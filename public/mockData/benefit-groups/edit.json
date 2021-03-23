@@ -1,0 +1,12 @@
+{
+  "id": "52dda3a8-fdaa-4661-8eba-0f79649d605f",
+  "companyId": "0525ffef-1a6c-45a4-8ccf-533f63ff72a9",
+  "name": "Ubezpieczenie na życie",
+  "type": "single",
+  "minChoices": 1,
+  "maxChoices": 1,
+  "manualActivation": false,
+  "manualActivationIsDefault": false,
+  "benefitDescription": "Opis",
+  "position": 1
+}

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  test-assigment:
+    tty: true
+    build:
+      context: .
+      dockerfile: ./dev.dockerfile
+    container_name: test-assigment
+    restart: on-failure
+    ports:
+      - '${DOCKER_APP_PORT}:3005'
+    volumes:
+      - ./../.:/var/www/html

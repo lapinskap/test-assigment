@@ -1,0 +1,19 @@
+{
+  "alarms": {
+    "codesDeficitLimit": 3,
+    "codesDeficitDays": 7
+  },
+  "app_variables": {
+    "REGULATIONS_SECTION_URL_pl": "Wartośc tesotwa",
+    "REGULATIONS_SECTION_URL_eng": "Sample value"
+  },
+  "password_reset": {
+    "passwordResetCodeLifeTime": 1800,
+    "passwordResetEmailSubject": "To jest przykałodwy tytuł maila"
+  },
+  "notifications": {},
+  "user": {},
+  "application": {},
+  "taxes": {},
+  "email_addresses": {}
+}

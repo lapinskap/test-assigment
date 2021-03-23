@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RbsButton /> renders correctly when have not permissions  1`] = `
+<button
+  aria-label={null}
+  className="not-allowed btn btn-secondary disabled"
+  disabled={true}
+  onClick={[Function]}
+  title="Nie masz uprawnień (random:scope)"
+/>
+`;
+
+exports[`<RbsButton /> renders correctly when have permissions  1`] = `
+<button
+  aria-label={null}
+  className="not-allowed btn btn-secondary disabled"
+  disabled={true}
+  onClick={[Function]}
+  title="Nie masz uprawnień (test1:company:company)"
+/>
+`;
+
+exports[`<RbsButton /> renders correctly when have permissions and button has props 1`] = `
+<button
+  aria-label={null}
+  className="classRandom not-allowed btn btn-secondary disabled"
+  disabled={true}
+  onClick={[Function]}
+  title="Nie masz uprawnień (random:scope)"
+/>
+`;

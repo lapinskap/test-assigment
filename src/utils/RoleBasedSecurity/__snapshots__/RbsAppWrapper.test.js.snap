@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RbsAppWrapper /> renders correctly with children when logged 1`] = `
+<RbsAppWrapper>
+  <div
+    className="loader-container"
+  >
+    <div
+      className="loader-container-inner"
+    >
+      <div
+        className="text-center"
+      >
+        <Loader
+          active={true}
+          type="line-scale-party"
+        >
+          <div
+            className="loader loader-undefined loader-active"
+          >
+            <div
+              className="loader-inner line-scale-party"
+            >
+              <div
+                key="0"
+                style={Object {}}
+              />
+              <div
+                key="1"
+                style={Object {}}
+              />
+              <div
+                key="2"
+                style={Object {}}
+              />
+              <div
+                key="3"
+                style={Object {}}
+              />
+            </div>
+          </div>
+        </Loader>
+      </div>
+    </div>
+  </div>
+</RbsAppWrapper>
+`;
+
+exports[`<RbsAppWrapper /> renders correctly with children when not logged 1`] = `
+<div
+  className="loader-container"
+>
+  <div
+    className="loader-container-inner"
+  >
+    <div
+      className="text-center"
+    >
+      <div
+        className="loader loader-undefined loader-active"
+      >
+        <div
+          className="loader-inner line-scale-party"
+        >
+          <div
+            style={Object {}}
+          />
+          <div
+            style={Object {}}
+          />
+          <div
+            style={Object {}}
+          />
+          <div
+            style={Object {}}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RbsAppWrapper /> renders correctly with wrong user info json 1`] = `
+<RbsAppWrapper>
+  <div
+    className="loader-container"
+  >
+    <div
+      className="loader-container-inner"
+    >
+      <div
+        className="text-center"
+      >
+        <Loader
+          active={true}
+          type="line-scale-party"
+        >
+          <div
+            className="loader loader-undefined loader-active"
+          >
+            <div
+              className="loader-inner line-scale-party"
+            >
+              <div
+                key="0"
+                style={Object {}}
+              />
+              <div
+                key="1"
+                style={Object {}}
+              />
+              <div
+                key="2"
+                style={Object {}}
+              />
+              <div
+                key="3"
+                style={Object {}}
+              />
+            </div>
+          </div>
+        </Loader>
+      </div>
+    </div>
+  </div>
+</RbsAppWrapper>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ForbiddenPage /> renders correctly with default state 1`] = `
+<div
+  className="alert alert-danger fade"
+  role="alert"
+>
+  Nie masz uprawnień do oglądania tej strony. Brakujące pozwolenie: (random:random)
+</div>
+`;

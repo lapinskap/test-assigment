@@ -1,0 +1,16 @@
+[
+  {
+    "id": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+    "description": "Siedziba firmy",
+    "startIpAddress": "111.222.333",
+    "endIpAddress": "111.222.333",
+    "active": true
+  },
+  {
+    "id": "a43275e4-eeb2-11ea-adc1-0242ac1200022",
+    "description": "Siedziba firmy2",
+    "startIpAddress": "111.222.333",
+    "endIpAddress": "111.222.333",
+    "active": true
+  }
+]

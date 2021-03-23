@@ -1,0 +1,7 @@
+{
+  "endpoints": {
+    "test": "/api/test/v1/rest",
+  },
+  "frontAppDomain": "%env(REACT_APP_FRONTEND_DOMAIN)%",
+  "mediaUrl": "%env(REACT_APP_MEDIA_URL)%"
+}

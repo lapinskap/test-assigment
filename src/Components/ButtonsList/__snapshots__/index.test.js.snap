@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonList renders correctly 1`] = `
+<TestAppContext
+  language={false}
+  rbs={false}
+  redux={false}
+  router={true}
+>
+  <HashRouter
+    getUserConfirmation={[Function]}
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <ButtonsList
+        buttons={
+          Array [
+            Object {
+              "className": "mr-2",
+              "color": "success",
+              "disabled": false,
+              "size": "lg",
+              "type": "submit",
+            },
+            Object {
+              "className": "mr-2",
+              "color": "success",
+              "disabled": false,
+              "size": "lg",
+              "text": "Save",
+              "type": "button",
+            },
+            Object {
+              "onClick": [MockFunction],
+              "text": "Delete",
+              "tooltip": "Simple tooltip info",
+            },
+            Object {
+              "className": "random-classname",
+              "color": "danger",
+              "disabled": false,
+              "href": "/",
+              "runBefore": null,
+              "size": "sm",
+            },
+          ]
+        }
+      >
+        <RbsButton
+          className="mr-2"
+          color="success"
+          data-t1=""
+          disabled={false}
+          href={null}
+          key="0"
+          onClick={[Function]}
+          permission=""
+          size="lg"
+          title="Zapisz"
+          type="submit"
+        >
+          <Button
+            className="mr-2"
+            color="success"
+            data-t1=""
+            disabled={false}
+            href={null}
+            onClick={[Function]}
+            size="lg"
+            tag="button"
+            title="Zapisz"
+            type="submit"
+          >
+            <button
+              aria-label={null}
+              className="mr-2 btn btn-success btn-lg"
+              data-t1=""
+              disabled={false}
+              href={null}
+              onClick={[Function]}
+              title="Zapisz"
+              type="submit"
+            >
+              Zapisz
+            </button>
+          </Button>
+        </RbsButton>
+        <RbsButton
+          className="mr-2"
+          color="success"
+          data-t1=""
+          disabled={false}
+          href={null}
+          key="1"
+          onClick={[Function]}
+          permission=""
+          size="lg"
+          title="Save"
+          type="button"
+        >
+          <Button
+            className="mr-2"
+            color="success"
+            data-t1=""
+            disabled={false}
+            href={null}
+            onClick={[Function]}
+            size="lg"
+            tag="button"
+            title="Save"
+            type="button"
+          >
+            <button
+              aria-label={null}
+              className="mr-2 btn btn-success btn-lg"
+              data-t1=""
+              disabled={false}
+              href={null}
+              onClick={[Function]}
+              title="Save"
+              type="button"
+            >
+              Save
+            </button>
+          </Button>
+        </RbsButton>
+        <TooltipWrapper
+          content="Simple tooltip info"
+          id="button-list-tooltip-2"
+          key="button-list-tooltip-"
+          placement="auto"
+        >
+          <span
+            id="button-list-tooltip-2"
+          >
+            <RbsButton
+              className="mr-2"
+              color="primary"
+              data-t1=""
+              disabled={false}
+              href={null}
+              key="2"
+              onClick={[MockFunction]}
+              permission=""
+              size="lg"
+              title="Delete"
+              type="button"
+            >
+              <Button
+                className="mr-2"
+                color="primary"
+                data-t1=""
+                disabled={false}
+                href={null}
+                onClick={[MockFunction]}
+                size="lg"
+                tag="button"
+                title="Delete"
+                type="button"
+              >
+                <button
+                  aria-label={null}
+                  className="mr-2 btn btn-primary btn-lg"
+                  data-t1=""
+                  disabled={false}
+                  href={null}
+                  onClick={[Function]}
+                  title="Delete"
+                  type="button"
+                >
+                  Delete
+                </button>
+              </Button>
+            </RbsButton>
+          </span>
+          <Tooltip
+            autohide={true}
+            innerClassName="tooltip-max-width"
+            isOpen={false}
+            placement="auto"
+            placementPrefix="bs-tooltip"
+            target="button-list-tooltip-2"
+            toggle={[Function]}
+            trigger="hover focus"
+          >
+            <TooltipPopoverWrapper
+              autohide={true}
+              delay={
+                Object {
+                  "hide": 50,
+                  "show": 0,
+                }
+              }
+              fade={true}
+              hideArrow={false}
+              innerClassName="tooltip-inner tooltip-max-width"
+              isOpen={false}
+              placement="auto"
+              placementPrefix="bs-tooltip"
+              popperClassName="tooltip show"
+              target="button-list-tooltip-2"
+              toggle={[Function]}
+              trigger="hover focus"
+            />
+          </Tooltip>
+        </TooltipWrapper>
+        <RbsButton
+          className="random-classname"
+          color="danger"
+          data-t1=""
+          disabled={false}
+          href="#/"
+          key="3"
+          onClick={[Function]}
+          permission=""
+          size="sm"
+          title="Zapisz"
+          type="button"
+        >
+          <Button
+            className="random-classname"
+            color="danger"
+            data-t1=""
+            disabled={false}
+            href="#/"
+            onClick={[Function]}
+            size="sm"
+            tag="button"
+            title="Zapisz"
+            type="button"
+          >
+            <a
+              aria-label={null}
+              className="random-classname btn btn-danger btn-sm"
+              data-t1=""
+              disabled={false}
+              href="#/"
+              onClick={[Function]}
+              title="Zapisz"
+              type="button"
+            >
+              Zapisz
+            </a>
+          </Button>
+        </RbsButton>
+      </ButtonsList>
+    </Router>
+  </HashRouter>
+</TestAppContext>
+`;

@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "code": "TAXATION_DICTIONARY",
+      "name": "Słownik stawek podatkowych",
+      "itemsJson": [
+        {
+          "key": "Nowy klucz",
+          "value": "Wartość xxx"
+        },
+        {
+          "key": "nowy nowy",
+          "value": "abcd"
+        },
+        {
+          "key": "test",
+          "value": "123123"
+        },
+        {
+          "key": "test",
+          "value": "1111"
+        },
+        {
+          "key": "sad",
+          "value": "123"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "PROVINCES_DICTIONARY",
+      "name": "Słownik województw",
+      "itemsJson": [
+        {
+          "key": "Nowy klucz",
+          "value": "Wartość xxx"
+        },
+        {
+          "key": "nowy nowy",
+          "value": "abcd"
+        },
+        {
+          "key": "test",
+          "value": "123123"
+        },
+        {
+          "key": "test",
+          "value": "1111"
+        },
+        {
+          "key": "sad",
+          "value": "123"
+        }
+      ]
+    }
+  ]

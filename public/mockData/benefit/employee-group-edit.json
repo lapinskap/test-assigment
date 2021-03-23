@@ -1,0 +1,16 @@
+{
+  "employeeGroupId": "a43275e4-eeb2-11ea-adc1-0242ac1200021",
+  "name": "Abonament 1",
+  "useDefaultName": true,
+  "description": "Abonament ...",
+  "useDefaultDescription": false,
+  "showEmployerPrice": true,
+  "employerPriceAlternativeText": "Alternative text is here...",
+  "method": "employer",
+  "employeePrice": "1.23",
+  "employeePayrollNumber": "123A",
+  "employerPrice": "1.23",
+  "employerPayrollNumber": "123A",
+  "active": true,
+  "benefit": "/api/subscription-management/v1/rest/benefits/359f5137-2501-457e-9f9f-808909bfd961"
+}

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarSimpleTabs /> renders correctly with default state 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="forms-wizard-vertical"
+  >
+    <div
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "width": "20%",
+          }
+        }
+      >
+        <ol
+          className="forms-wizard"
+          data-t1="sidebarTabs"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <a
+            data-t1="20"
+            href="#20"
+          >
+            <li
+              className="form-wizard-step-todo"
+            >
+              <em>
+                <s-glyph-5 />
+              </em>
+              <span>
+                test
+              </span>
+            </li>
+          </a>
+        </ol>
+      </div>
+      <div
+        className="card-body"
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
