@@ -60,6 +60,7 @@ export default function Main() {
                 color={selectedTime === slot ? 'secondary' : 'link'}
                 className="col-sm-2 px-3 m-2"
                 onClick={() => setSelectedTime(slot)}
+                key={slot}
               >
                 {slot}
               </Button>

@@ -66,7 +66,12 @@ export const excludeCurrentAppointments = (startDate, hourSlots) => {
 };
 
 export const formatAppoitmentToHour = (appointment) => {
-  const formattedAppointment = moment(appointment).format('HH:mm');
+  let formattedAppointment = moment(appointment).format('HH:mm');
+
+  // poor coding pattern alert
+  if (formattedAppointment.includes(':15')) {
+    formattedAppointment = moment(formattedAppointment).add(15, 'minutes').format('HH:mm');
+  }
 
   return formattedAppointment;
 };
