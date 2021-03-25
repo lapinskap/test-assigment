@@ -65,7 +65,7 @@ export const excludeCurrentAppointments = (startDate, hourSlots) => {
   return freeHourSlots;
 };
 
-const formatAppoitmentToHour = (appointment) => {
+export const formatAppoitmentToHour = (appointment) => {
   const formattedAppointment = moment(appointment).format('HH:mm');
 
   return formattedAppointment;

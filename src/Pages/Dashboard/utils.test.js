@@ -1,5 +1,5 @@
 import {
-  createHourSlots, createDateListToCheck, createFreeDateSlots, excludeCurrentAppointments,
+  createHourSlots, createDateListToCheck, formatAppoitmentToHour, excludeCurrentAppointments,
 }
   from './utils';
 import { searchRange } from './consts';
@@ -26,24 +26,19 @@ describe('createDateListToCheck', () => {
   });
 });
 
-describe('createFreeDateSlots', () => {
+describe('formatAppoitmentToHour', () => {
   it('creates an Array', () => {
-    expect(createFreeDateSlots('2021-01-05T11:00:00', ['12:00', '13:00'])).toBe(Array);
+    expect(formatAppoitmentToHour(new Date('2021-01-05T11:00:00'))).toBe('11:00');
   });
 
-  it('creates array with 20 elements', () => {
-    const result = createFreeDateSlots('2021-01-05T11:00:00', ['12:00', '13:00']);
-    expect(result.length).toBe(20);
+  it('creates array with 5 elements', () => {
+    const result = formatAppoitmentToHour('2021-01-05T11:00:00');
+    expect(result.length).toBe(5);
   });
 });
 
 describe('excludeCurrentAppointments', () => {
-  it('creates an Array', () => {
-    expect(excludeCurrentAppointments('2021-01-05T11:00:00', ['12:00', '13:00']).toBe(Array));
-  });
-
-  it('creates array with 20 elements', () => {
-    const result = excludeCurrentAppointments('2021-01-05T11:00:00', ['12:00', '13:00']);
-    expect(result.length).toBe(20);
+  it('returns non empty result', () => {
+    expect(excludeCurrentAppointments('2021-01-05T11:00:00', ['12:00', '13:00'])).not.toBe(null);
   });
 });
