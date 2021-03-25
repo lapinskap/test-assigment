@@ -22,7 +22,7 @@ export default function LanguagesSwitcher() {
     window.location.reload();
   };
 
-  const currentLanguage = languages.find((el) => el.code === lang);
+  // const currentLanguage = languages.find((el) => el.code === lang);
   return (
     <UncontrolledDropdown data-t1="languageSwitcher">
       <DropdownToggle className="p-0 mr-2" color="link">
@@ -39,7 +39,7 @@ export default function LanguagesSwitcher() {
             <div className="menu-header-image opacity-05" />
             <div className="menu-header-content text-center text-white">
               <h6 className="menu-header-subtitle mt-0">
-                Wybierz język
+                Select language
               </h6>
             </div>
           </div>

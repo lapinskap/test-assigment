@@ -1,9 +1,9 @@
 /* eslint-disable no-plusplus */
 /* eslint-disable import/prefer-default-export */
-import * as moment from 'moment';
+import moment from 'moment';
+import { DAY_START, weeklyAppointments } from './consts';
 
 export const createHourSlots = (startDate = '2021-01-05T8:00:00') => {
-  // 08:00 - 18:00
   const times = 10 * 2; // 10 hours * 30 mins in an hour
   const hourSlots = [];
   for (let i = 0; i < times; i++) {
@@ -19,41 +19,54 @@ export const createHourSlots = (startDate = '2021-01-05T8:00:00') => {
     hourSlots.splice(LunchTimeStartIndex, 2);
   }
 
-  return hourSlots;
+  // why wouldn't we use date object here?
+  // because comparing two date objects always returns false
+
+  return excludeCurrentAppointments(startDate, hourSlots);
 };
 
 export const createDateListToCheck = (dateRange) => {
   const dateListToCheck = [];
-  const start = dateRange.from;
-  const end = dateRange.to;
+  const startDate = dateRange.from;
+  const lastDate = dateRange.to;
+  const currDate = moment(`${startDate} ${DAY_START}`);
 
-  for (let arr = [], dt = new Date(start); dt <= end; dt.setDate(dt.getDate() + 1)) {
-    arr.push(new Date(dt));
-    dateListToCheck.push(new Date(dt));
+  dateListToCheck.push(moment(`${startDate} ${DAY_START}`).toDate());
+  while (currDate.add(1, 'days').diff(lastDate) < 0) {
+    dateListToCheck.push(currDate.clone().toDate());
   }
-
+  dateListToCheck.push(moment(`${lastDate} ${DAY_START}`).toDate());
   return dateListToCheck;
 };
 
-export const createFreeDateSlots = (date, hourSlots) => {
-  // for specific day
-  const freeDateSlots = [];
-  for (let i; i < hourSlots.length; i++) {
-    freeDateSlots.push(moment(`${date} ${hourSlots[i]}`));
-  }
+export const excludeCurrentAppointments = (startDate, hourSlots) => {
+  // for selected day
+  const freeHourSlots = hourSlots;
 
-  return freeDateSlots;
-};
+  const today = moment(startDate).format('YYYY-MM-DD');
+  const timeSlotsToExclude = [];
 
-export const excludeCurrentAppointments = (allHourSlots, appointments) => {
-  const freeHourSlots = [];
-
-  allHourSlots.map((slot) => {
-    if (!appointments.includes(slot)) {
-      return freeHourSlots.push(slot);
+  weeklyAppointments.map((appointment) => {
+    if (appointment.from.includes(today)) {
+      const formatedAppoitmentSlot = formatAppoitmentToHour(appointment.from);
+      return timeSlotsToExclude.push(formatedAppoitmentSlot);
     }
-    return freeHourSlots;
+    return appointment;
   });
 
+  if (timeSlotsToExclude.length > 0) {
+    timeSlotsToExclude.map((slot) => {
+      const indexToRemove = freeHourSlots.indexOf(slot);
+      return freeHourSlots.splice(indexToRemove, 1);
+    });
+  }
+
+  // in HH:mm format
   return freeHourSlots;
+};
+
+const formatAppoitmentToHour = (appointment) => {
+  const formattedAppointment = moment(appointment).format('HH:mm');
+
+  return formattedAppointment;
 };

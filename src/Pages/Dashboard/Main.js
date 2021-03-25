@@ -1,61 +1,70 @@
 /* eslint-disable no-plusplus */
 import React, { useState, useEffect } from 'react';
+import moment from 'moment';
 import {
-  Card, CardBody, CardTitle, Row, CustomInput,
+  Card, CardBody, CardTitle, Row, Button, Label,
 } from 'reactstrap';
 import DatePicker from 'react-datepicker';
-import { weeklyAppointments, searchRange } from './consts';
+import { searchRange, DAY_START } from './consts';
 import {
-  createHourSlots, createDateListToCheck, createFreeDateSlots, excludeCurrentAppointments,
+  createHourSlots, createDateListToCheck,
 }
   from './utils';
 
-export const findFreeTimeslots = () => {
-  const datesToCheck = createDateListToCheck(searchRange);
-  const hourSlots = createHourSlots();
-  // create time slots for each day in a list
-  const AllTimeSlots = [];
-  for (let i = 0; i < datesToCheck.length; i++) {
-    AllTimeSlots.push(createFreeDateSlots(datesToCheck[i], hourSlots));
-  }
-  // exclude slots
-  const FreeTimeSlots = excludeCurrentAppointments(AllTimeSlots, weeklyAppointments);
-
-  // update input state
-  return FreeTimeSlots;
-};
-
 export default function Main() {
-  const [selectedDate, setSelectedDate] = useState([]);
+  const [selectedDate, setSelectedDate] = useState('2021-01-05T08:00:00');
+  const [selectedTime, setSelectedTime] = useState('08:30');
   const [freeTimeSlots, updateFreeTimeSlots] = useState([]);
 
-  const onChangeDate = (date) => {
-    setSelectedDate(date);
+  const findFreeTimeslots = (date) => {
+    const formatedDate = `${moment(date).format('YYYY-MM-DD')} ${DAY_START}`;
+    return createHourSlots(formatedDate);
   };
 
   useEffect(() => {
-    updateFreeTimeSlots(findFreeTimeslots());
-  }, []);
+    updateFreeTimeSlots(findFreeTimeslots(selectedDate));
+  }, [selectedDate]);
 
   return (
     <>
-      <Card>
+      <Card className="m-3">
         <CardTitle className="col-sm-12 m-3">New appointment</CardTitle>
-        <CardBody className="col-sm-12 ml-3">
-          <p>Select date:</p>
-          <Row>
-            <DatePicker onChange={(date) => onChangeDate(date)} />
-            <CustomInput
-              type="select"
-              className="col-sm-4"
-            />
+        <CardBody className="col-sm-12 m-3">
+          <Row className="m-3">
+            <Label>
+              Select date:
+              <DatePicker
+                includeDates={createDateListToCheck(searchRange)}
+                onChange={(date) => setSelectedDate(date)}
+              />
+            </Label>
           </Row>
-          <div>
-            {selectedDate}
-          </div>
-          <div>
-            {freeTimeSlots}
-          </div>
+          <Row className="mb-3">
+            <div className="col-sm-4">
+              <CardTitle>Selected appointment date:</CardTitle>
+              <div>
+                {moment(selectedDate).format('YYYY-MM-DD')}
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <CardTitle>Selected appointment time:</CardTitle>
+              <div>
+                {selectedTime}
+              </div>
+            </div>
+          </Row>
+          <CardTitle>Avabile appoitment hours:</CardTitle>
+          <Row className="col-sm-12">
+            {freeTimeSlots.map((slot) => (
+              <Button
+                color={selectedTime === slot ? 'secondary' : 'link'}
+                className="col-sm-2 px-3 m-2"
+                onClick={() => setSelectedTime(slot)}
+              >
+                {slot}
+              </Button>
+            ))}
+          </Row>
         </CardBody>
       </Card>
     </>
