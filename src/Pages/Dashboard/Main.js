@@ -1,57 +1,40 @@
+/* eslint-disable no-plusplus */
 import React, { useState, useEffect } from 'react';
 import {
-  Card, CardBody, CardTitle, Row, CustomInput, Button,
+  Card, CardBody, CardTitle, Row, CustomInput,
 } from 'reactstrap';
-import * as moment from 'moment';
 import DatePicker from 'react-datepicker';
 import { weeklyAppointments, searchRange } from './consts';
+import {
+  createHourSlots, createDateListToCheck, createFreeDateSlots, excludeCurrentAppointments,
+}
+  from './utils';
 
 export const findFreeTimeslots = () => {
-  const datesToCheck = searchRange;
-  // create time slots
-
-  // const start = moment().startOf('day');
-
+  const datesToCheck = createDateListToCheck(searchRange);
+  const hourSlots = createHourSlots();
+  // create time slots for each day in a list
+  const AllTimeSlots = [];
+  for (let i = 0; i < datesToCheck.length; i++) {
+    AllTimeSlots.push(createFreeDateSlots(datesToCheck[i], hourSlots));
+  }
   // exclude slots
-  // datesToCheck.split(weeklyAppointments);
+  const FreeTimeSlots = excludeCurrentAppointments(AllTimeSlots, weeklyAppointments);
 
   // update input state
-  return [];
+  return FreeTimeSlots;
 };
-
-export const createHourSlots = (startDate) => {
-  // 08:00 - 18:00
-  const times = 10 * 2; // 10 hours * 30 mins in an hour
-  const hourSlots = [];
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < times; i++) {
-    const slot = moment(startDate)
-      .add(30 * i, 'minutes')
-      .format('HH:mm');
-
-    hourSlots.push(slot);
-  }
-
-  const LunchTimeStartIndex = hourSlots.indexOf('12:00');
-  if (LunchTimeStartIndex > -1) {
-    hourSlots.splice(LunchTimeStartIndex, 2);
-  }
-
-  return hourSlots;
-};
-
-console.log(createHourSlots('2021-01-04T08:00:00'));
 
 export default function Main() {
   const [selectedDate, setSelectedDate] = useState([]);
-  const [dateRange, updateDateRange] = useState([]);
+  const [freeTimeSlots, updateFreeTimeSlots] = useState([]);
 
   const onChangeDate = (date) => {
     setSelectedDate(date);
   };
 
   useEffect(() => {
-    findFreeTimeslots();
+    updateFreeTimeSlots(findFreeTimeslots());
   }, []);
 
   return (
@@ -69,6 +52,9 @@ export default function Main() {
           </Row>
           <div>
             {selectedDate}
+          </div>
+          <div>
+            {freeTimeSlots}
           </div>
         </CardBody>
       </Card>
