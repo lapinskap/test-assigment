@@ -28,5 +28,5 @@ yarn-error.log*
 .devProxyConfig.json
 
 !/docker/keys/.gitignore
-/docker/keys/id_rsa_feniks.pub
-/docker/keys/id_rsa_feniks
+/docker/keys/id_rsa_xyz.pub
+/docker/keys/id_rsa_xyz

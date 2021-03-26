@@ -23,7 +23,7 @@
 
 ## PROD
 1. Pull the latest changes from Git
-2. Provide ssh keys files (id_rsa_feniks, id_rsa_feniks.pub) with access to repo to docker/keys directory
+2. Provide ssh keys files (id_rsa_xyz, id_rsa_xyz.pub) with access to repo to docker/keys directory
 3. Provide config files to docker/prodConfig directory (files: .env, .appConfig.json, .devProxyConfig.json - you can inspire from .dins files)
 3. Run deploy-prod.sh
 4. App is working on port you have declared in .env file in docker directory as DOCKER_APP_POR

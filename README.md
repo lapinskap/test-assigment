@@ -30,11 +30,6 @@ Copy content of ./src/.appConfig.json.dist to ./src/.appConfig.json, don't forge
 }
 ```
 Copy content of .devProxyConfig.json.dist to .devProxyConfig.json, don't forget to add a comma between lines:
-```json
-{
-  "/api": "https://feniks-omb.g4n.eu"
-}
-```
 
 ## Available commands
 
